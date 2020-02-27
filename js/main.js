@@ -6,7 +6,7 @@ history.scrollRestoration = 'manual';
 
 
 var prevScroll  = 0;
-var threshold = 40;
+var threshold = 20;
 
 
 var navhideshow = setInterval(function() {
