@@ -13,13 +13,13 @@ var upScroll;
 window.onscroll = function() {
   var currentScroll = window.pageYOffset;
 
-  if (prevScroll >= currentScroll+32) {
+  if (prevScroll > currentScroll+32) {
     navbar.style.transform = "translate3d(0,0,0)";
     navbar.style.opacity = "1";
     upScroll = currentScroll;
   }
 
-else if (prevScroll <= currentScroll || upScroll <= currentScroll) {
+else if (prevScroll < currentScroll || upScroll < currentScroll) {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
     prevScroll = currentScroll;
