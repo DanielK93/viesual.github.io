@@ -6,7 +6,7 @@ history.scrollRestoration = 'manual';
 
 
 var prevScroll  = 0;
-var threshold = 50;
+var threshold = 30;
 
 
 var navhideshow = setInterval(function() {
@@ -20,7 +20,7 @@ var navhideshow = setInterval(function() {
     navbar.style.opacity = "0";
   }
 prevScroll = currentScroll;
-}, 100);
+}, 150);
 
 
 
