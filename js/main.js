@@ -19,7 +19,7 @@ window.onscroll = function() {
     upScroll = currentScroll;
   }
 
-if (prevScroll <= currentScroll || upScroll <= currentScroll) {
+else if (prevScroll <= currentScroll || upScroll <= currentScroll) {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
     prevScroll = currentScroll;
