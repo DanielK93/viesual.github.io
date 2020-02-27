@@ -14,10 +14,10 @@ var navhideshow = setInterval(function() {
 
   if (currentScroll - prevScroll < -threshold) {
     navbar.style.transform = "translate3d(0,0,0)";
-    navbar.style.opacity = "1";
+
   } else if (currentScroll - prevScroll > threshold){
     navbar.style.transform = "translate3d(0,-100%,0)";
-    navbar.style.opacity = "0";
+  
   }
 prevScroll = currentScroll;
 }, 150);
