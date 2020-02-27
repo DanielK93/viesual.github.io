@@ -1,5 +1,6 @@
 var menutoggle = document.getElementById("menutoggle");
-var mobilemenu = document.getElementById("mobilemenu")
+var mobilemenu = document.getElementById("mobilemenu");
+var navbar = document.getElementById("navbar");
 var open = false;
 history.scrollRestoration = 'manual';
 
@@ -7,9 +8,12 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.transform = "translate3d(0,0,0)";
+    navbar.style.transform = "translate3d(0,0,0)";
+    navbar.style.opactiy = "1";
+
   } else {
-    document.getElementById("navbar").style.transform = "translate3d(0,-100%,0)";
+    navbar.style.transform = "translate3d(0,-100%,0)";
+    navbar.style.opactiy = "0";
   }
   prevScrollpos = currentScrollPos;
 }
