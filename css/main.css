@@ -148,6 +148,10 @@ h4 {
   display: inline-block;
 }
 
+#navbar{
+  transition: all 1s;
+}
+
 .headercontainer {
   position:fixed;
   top:0;
