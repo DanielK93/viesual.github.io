@@ -148,7 +148,7 @@ h4 {
 }
 
 #navbar{
-  transition: all 1s;
+  transition: all 0.3s;
 }
 
 .headercontainer {
