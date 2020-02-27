@@ -18,8 +18,8 @@ window.onscroll = function() {
     navbar.style.opacity = "0";
     prevScrollpos = currentScrollPos;
   }
-console.log(prevScrollpos);
-console.log(currentScrollPos);
+console.log("prev"+prevScrollpos);
+console.log("current"+currentScrollPos);
 
 }
 
