@@ -9,7 +9,7 @@ var prevScroll  = 0;
 var threshold = 60;
 
 
-var navhideshow = setInterval() {
+var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
 
   if (currentScroll - prevScroll < -threshold) {
