@@ -14,11 +14,7 @@ window.onscroll = function() {
     navbar.style.opacity = "1";
 
   }
-  if (prevScrollpos > currentScrollPos+50) {
-    navbar.style.transform = "translate3d(0,0,0)";
-    navbar.style.opacity = "1";
-
-  } if (prevScrollpos < currentScrollPos) {
+if (prevScrollpos < currentScrollPos) {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
     prevScrollpos = currentScrollPos;
