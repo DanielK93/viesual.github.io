@@ -7,7 +7,7 @@ history.scrollRestoration = 'manual';
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos-50) {
+  if (prevScrollpos > currentScrollPos+50) {
     navbar.style.transform = "translate3d(0,0,0)";
     navbar.style.opacity = "1";
 
