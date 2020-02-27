@@ -5,6 +5,8 @@ var open = false;
 history.scrollRestoration = 'manual';
 
 var prevScrollpos = window.pageYOffset;
+
+
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos+50) {
@@ -14,8 +16,9 @@ window.onscroll = function() {
   } else {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
+    prevScrollpos = currentScrollPos;
   }
-  prevScrollpos = currentScrollPos;
+
 }
 
 
