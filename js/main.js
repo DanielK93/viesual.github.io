@@ -4,17 +4,17 @@ var navbar = document.getElementById("navbar");
 var open = false;
 history.scrollRestoration = 'manual';
 
-var prevScrollpos = window.pageYOffset;
+var scrollPosAfterUp = window.pageYOffset;
 
 
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos+25) {
+  if (prevScrollpos > currentScrollPos+32) {
     navbar.style.transform = "translate3d(0,0,0)";
     navbar.style.opacity = "1";
-
+    scrollPosAfterUp = currentScrollpos;
   }
-if (prevScrollpos < currentScrollPos) {
+if (scrollPosAfterUp < currentScrollPos) {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
     prevScrollpos = currentScrollPos;
