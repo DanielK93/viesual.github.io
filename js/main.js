@@ -18,6 +18,9 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
+console.log(prevScrollpos);
+console.log(currentScrollPos);
+
 document.onclick = function(){
 
     if (open == true){

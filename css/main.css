@@ -148,8 +148,7 @@ h4 {
 }
 
 #navbar{
-  transition: opacity 0.25s ease;
-  transition: transform 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 .headercontainer {
