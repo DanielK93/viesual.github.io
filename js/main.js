@@ -24,6 +24,10 @@ if (prevScroll < currentScroll || upScroll < currentScroll) {
     navbar.style.opacity = "0";
     prevScroll = currentScroll;
   }
+
+  console.log("upscroll "+upScroll);
+  console.log("prevscroll "+prevScroll);
+  console.log("current "+currentScroll);
 }
 
 
