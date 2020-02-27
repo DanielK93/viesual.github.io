@@ -5,30 +5,22 @@ var open = false;
 history.scrollRestoration = 'manual';
 
 
-var prevScroll  = window.pageYOffset;
-var currentScroll;
-var upScroll;
+var prevScroll  = 0;
+var threshold = 60;
 
 
-window.onscroll = function() {
+var navhideshow = setInterval() {
   var currentScroll = window.pageYOffset;
 
-  if (prevScroll > currentScroll+32) {
+  if (currentScroll - prevScroll < -threshold) {
     navbar.style.transform = "translate3d(0,0,0)";
     navbar.style.opacity = "1";
-    upScroll = currentScroll;
-  }
-
-else if (prevScroll < currentScroll || upScroll < currentScroll) {
+  } else if (currentScroll - last > threshold){
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
-    prevScroll = currentScroll;
   }
-
-  console.log("upscroll "+upScroll);
-  console.log("prevscroll "+prevScroll);
-  console.log("current "+currentScroll);
-}
+prevScroll = currentScroll;
+}, 150);
 
 
 
