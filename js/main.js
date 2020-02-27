@@ -6,23 +6,25 @@ history.scrollRestoration = 'manual';
 
 var scrollPosAfterUp = window.pageYOffset;
 var prevScrollpos = window.pageYOffset;
+var prevScroll;
+var currentScroll;
+var upScroll;
 
 
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos+32) {
+  var currentScroll = window.pageYOffset;
+
+  if (prevScroll > currentScroll+32) {
     navbar.style.transform = "translate3d(0,0,0)";
     navbar.style.opacity = "1";
-    scrollPosAfterUp = currentScrollpos;
+    upScroll = currentScroll;
   }
-if (scrollPosAfterUp < currentScrollPos) {
+
+if (prevScroll < currentScroll || upScroll < currentScroll) {
     navbar.style.transform = "translate3d(0,-100%,0)";
     navbar.style.opacity = "0";
-    prevScrollpos = currentScrollPos;
+    prevScroll = currentScroll;
   }
-console.log("prev"+prevScrollpos);
-console.log("current"+currentScrollPos);
-
 }
 
 
