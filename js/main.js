@@ -4,9 +4,8 @@ var navbar = document.getElementById("navbar");
 var open = false;
 history.scrollRestoration = 'manual';
 
-var scrollPosAfterUp = window.pageYOffset;
-var prevScrollpos = window.pageYOffset;
-var prevScroll;
+
+var prevScroll  = window.pageYOffset;
 var currentScroll;
 var upScroll;
 
