@@ -260,6 +260,7 @@ float:left;
   float: left;
   height: auto;
   text-transform: none;
+  width:80px;
 }
 
 #menutoggle {
