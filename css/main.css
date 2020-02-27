@@ -158,8 +158,8 @@ h4 {
   left:0;
   z-index: 3;
   width: 100%;
-  height:60px;
-  padding-top:30px;
+  height:20px;
+  padding: 24px 3% 10px;
   font-family: var(--monofont);
   font-size: 1.4rem;
   text-transform: uppercase;
