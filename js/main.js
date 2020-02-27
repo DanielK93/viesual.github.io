@@ -5,6 +5,7 @@ var open = false;
 history.scrollRestoration = 'manual';
 
 var scrollPosAfterUp = window.pageYOffset;
+var prevScrollpos = window.pageYOffset;
 
 
 window.onscroll = function() {
