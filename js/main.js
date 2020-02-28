@@ -22,8 +22,10 @@ var navhideshow = setInterval(function() {
 prevScroll = currentScroll;
 }, 150);
 
-var slider = document.getElementById("scrolli");
+const slider = document.getElementById("scrolli");
 var isDown;
+let startX;
+let scrollLeft;
 
 slider.addEventListener("mousedown", e => {
   isDown = true;
