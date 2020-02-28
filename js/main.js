@@ -7,7 +7,7 @@ history.scrollRestoration = 'manual';
 
 var prevScroll  = 0;
 var threshold = 50;
-
+var mouseclicked = false;
 
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
@@ -26,6 +26,12 @@ var slider = document.getElementById("scroll");
 
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
+mouseclicked = true;
+});
+
+slider.addEventListener('mousedup', (e) => {
+  mouseclicked = false;
+console.log("unclicked");
 });
 
 document.addEventListener('mousemove', logKey);
