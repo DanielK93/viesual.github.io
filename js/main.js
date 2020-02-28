@@ -27,10 +27,6 @@ var slider = document.getElementById("scroll");
 xpos = e.clientX;
 console.log(xpos);
 
-slider.addEventListener("mousedown", e => {
-
-
-});
 
 document.onclick = function(){
 
