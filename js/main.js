@@ -29,7 +29,7 @@ console.log("clicked");
 mouseclicked = true;
 });
 
-slider.addEventListener('mousedup', (e) => {
+slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
 console.log("unclicked");
 });
