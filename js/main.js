@@ -37,7 +37,7 @@ posx = e.pageX;
 posy = e.pageY;
 left = slider.scrollLeft;
 slider.style.cursor = "grabbed";
-slider.style.scroll_snap_type = "none";
+slider.style.scrollSnapType = "none";
 });
 
 slider.addEventListener('mouseup', (e) => {
