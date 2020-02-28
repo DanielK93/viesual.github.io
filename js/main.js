@@ -22,7 +22,7 @@ var navhideshow = setInterval(function() {
 prevScroll = currentScroll;
 }, 150);
 
-const slider = document.getElementById("scrolli");
+const slider = document.getElementById("scroll");
 var isDown;
 let startX;
 let scrollLeft;
