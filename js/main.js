@@ -35,10 +35,9 @@ console.log("unclicked");
 });
 
 slider.addEventListener('mousemove', e => {
-  if (mouseclicked === true){
-    function logKey(e) {
-    console.log(e.screenX);
-  }
+  if (mouseclicked == true){
+    console.log(e.clientX);
+
 }
 });
 
