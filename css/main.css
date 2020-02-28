@@ -280,7 +280,7 @@ a {
 .flexboxcontainer {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1.5%;
+  margin: 0 -2.5%;
 
   background-color: var(--offwhite);
 }
@@ -288,13 +288,13 @@ a {
 .flexboxitem-halfth {
   flex-basis: 44%;
   flex-grow: 1;
-  margin: 0 1.5% 3%;
+  margin: 0 2.5% 5%;
 }
 
 .flexboxitem-full {
   flex-basis: 100%;
   flex-grow: 1;
-  margin: 0 1.5% 3%;
+  margin: 0 2.5% 5%;
 }
 
 .mb9p {
