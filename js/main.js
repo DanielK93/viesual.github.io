@@ -23,6 +23,7 @@ prevScroll = currentScroll;
 }, 150);
 
 var slider = document.getElementById("scrolli");
+var isDown;
 
 slider.addEventListener("mousedown", e => {
   isDown = true;
