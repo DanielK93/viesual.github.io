@@ -28,16 +28,15 @@ var x,y,top,left,down;
 
 
 var slider = document.getElementById("scroll");
-var width;
 
 slider.addEventListener('mousedown', (e) => {
-console.log("clicked");
+slider.style.scrollSnapType = "none";
 mouseclicked = true;
 posx = e.pageX;
 posy = e.pageY;
 left = slider.scrollLeft;
-slider.style.cursor = "grabbed";
-slider.style.scrollSnapType = "none";
+slider.style.cursor = "grabbing";
+
 });
 
 slider.addEventListener('mouseup', (e) => {
@@ -45,7 +44,6 @@ slider.addEventListener('mouseup', (e) => {
 console.log("unclicked");
 slider.style.scrollSnapType = "x"+" mandatory";
 slider.style.cursor = "grab";
-
 });
 
 slider.addEventListener('mousemove', e => {
