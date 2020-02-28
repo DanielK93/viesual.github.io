@@ -42,7 +42,7 @@ slider.style.cursor = "grabbing";
 slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
 console.log("unclicked");
-slider.style.scrollSnapType = "x"+" proximity";
+slider.style.scrollSnapType = "x proximity";
 slider.style.cursor = "grab";
 });
 
