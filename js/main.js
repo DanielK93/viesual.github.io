@@ -34,13 +34,13 @@ slider.addEventListener('mouseup', (e) => {
 console.log("unclicked");
 });
 
-slider.addEventListener('mousemove', logKey);
+slider.addEventListener('mousemove', e => {
   if (mouseclicked === true){
     function logKey(e) {
     console.log(e.screenX);
   }
 }
-
+}
 
 
 
