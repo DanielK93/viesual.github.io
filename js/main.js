@@ -24,19 +24,20 @@ var navhideshow = setInterval(function() {
 prevScroll = currentScroll;
 }, 150);
 
-/*
+var x,y,top,left,down;
+
+
 var slider = document.getElementById("scroll");
 var width;
 
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
-console.log(e.clientX);
-width = slider.offsetWidth;
-var clickarea = width/2;
 mouseclicked = true;
 slider.scrollLeft += width;
-var sLeft = slider.scrollLeft;
 console.log(sLeft);
+posx = e.pageX;
+posy = e.pageY;
+left = slider.scrollLeft;
 });
 
 slider.addEventListener('mouseup', (e) => {
@@ -47,17 +48,16 @@ console.log("unclicked");
 
 slider.addEventListener('mousemove', e => {
   if (mouseclicked == true){
+    var newX=e.pageX;
+    var newY=e.pageY;
 
-    newpos = e.clientX;
-    if (newpos > lastpos){
-      console.log("rechts");
-    } else if(newpos < lastpos){
-      console.log("links");
-    }
-  lastpos = newpos;
+    //console.log(y+", "+newY+", "+top+", "+(top+(newY-y)));
+
+    slider.scrollTop(top-newY+y);
+    sliderscrollLeft(left-newX+x);
 }
 });
-*/
+
 
 
 document.onclick = function(){
