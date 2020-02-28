@@ -150,6 +150,8 @@ h4 {
 
 .divcontent{
   width:100%;
+  max-width: 1350px;
+margin: 0 auto;
 }
 
 #navbar{
