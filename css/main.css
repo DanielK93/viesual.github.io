@@ -348,7 +348,7 @@ img {
   overflow: auto;
   flex: none;
   flex-flow:row nowrap;
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x mandatory;
   position:relative;
 }
 
