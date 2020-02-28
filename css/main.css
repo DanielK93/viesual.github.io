@@ -290,14 +290,14 @@ a {
   flex-basis: 44%;
   flex-grow: 1;
   margin: 0 2.5% 5%;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 .flexboxitem-full {
   flex-basis: 100%;
   flex-grow: 1;
   margin: 0 2.5% 5%;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 
 .mb9p {
