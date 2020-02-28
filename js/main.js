@@ -36,8 +36,16 @@ console.log("unclicked");
 
 slider.addEventListener('mousemove', e => {
   if (mouseclicked == true){
+    var lastpos = 0;
+    var newpos;
     console.log(e.clientX);
-
+    newpos = e.clientX;
+    if (newpos > lastpos){
+      console.log("rechts");
+    } else if(newpos < lastpos){
+      console.log("links");
+    }
+  lastpos = newpos;
 }
 });
 
