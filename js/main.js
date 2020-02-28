@@ -24,8 +24,13 @@ prevScroll = currentScroll;
 
 var slider = document.getElementById("scroll");
 
-xpos = e.clientX;
-console.log(xpos);
+
+document.addEventListener('mousemove', logKey);
+
+function logKey(e) {
+  console.log(e.screenX);
+}
+
 
 
 document.onclick = function(){
