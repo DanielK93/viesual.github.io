@@ -29,7 +29,7 @@ var slider = document.getElementById("scroll");
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
-slider.scrollLeft += 200;
+slider.scrollLeft += 600;
 var sLeft = slider.scrollLeft;
 console.log(sLeft);
 });
@@ -46,10 +46,8 @@ slider.addEventListener('mousemove', e => {
     newpos = e.clientX;
     if (newpos > lastpos){
       console.log("rechts");
-      slider.scrollLeft += 100;
     } else if(newpos < lastpos){
       console.log("links");
-      slider.scrollLeft -= 100;
     }
   lastpos = newpos;
 }
