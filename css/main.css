@@ -344,6 +344,16 @@ img {
   width:100%;
   clear:both;
   background-color: var(--offwhite);
+  display:flex;
+  overflow: auto;
+  flex: none;
+  flex-flow:row nowrap;
+  scroll-snap-type: x mandatory;
+
+
+.fullheightelem > div{
+  width:100%;
+  height:100%;
 }
 
 .container {
