@@ -35,7 +35,7 @@ console.log("unclicked");
 });
 
 document.addEventListener('mousemove', logKey);
-  if (mouseclicked == true){
+  if (mouseclicked === true){
     function logKey(e) {
     console.log(e.screenX);
   }
