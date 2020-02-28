@@ -29,6 +29,7 @@ var slider = document.getElementById("scroll");
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
+slider.scrollBy(100,100);
 });
 
 slider.addEventListener('mouseup', (e) => {
