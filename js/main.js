@@ -30,6 +30,8 @@ slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
 slider.scrollLeft += 10;
+var sLeft = slider.scrollLeft;
+console.log(sLeft);
 });
 
 slider.addEventListener('mouseup', (e) => {
