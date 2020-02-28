@@ -33,8 +33,6 @@ var width;
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
-slider.scrollLeft += width;
-console.log(sLeft);
 posx = e.pageX;
 posy = e.pageY;
 left = slider.scrollLeft;
@@ -52,9 +50,7 @@ slider.addEventListener('mousemove', e => {
     var newY=e.pageY;
 
     //console.log(y+", "+newY+", "+top+", "+(top+(newY-y)));
-
-    slider.scrollTop(top-newY+y);
-    sliderscrollLeft(left-newX+x);
+    slider.scrollLeft(left-newX+x);
 }
 });
 
