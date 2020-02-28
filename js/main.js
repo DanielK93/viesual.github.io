@@ -8,6 +8,8 @@ history.scrollRestoration = 'manual';
 var prevScroll  = 0;
 var threshold = 50;
 var mouseclicked = false;
+var lastpos = 0;
+var newpos = 0;
 
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
@@ -37,9 +39,7 @@ console.log("unclicked");
 
 slider.addEventListener('mousemove', e => {
   if (mouseclicked == true){
-    var lastpos;
-    var newpos;
-    console.log(e.clientX);
+
     newpos = e.clientX;
     if (newpos > lastpos){
       console.log("rechts");
