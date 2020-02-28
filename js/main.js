@@ -43,8 +43,10 @@ slider.addEventListener('mousemove', e => {
     newpos = e.clientX;
     if (newpos > lastpos){
       console.log("rechts");
+      slider.scrollBy(10);
     } else if(newpos < lastpos){
       console.log("links");
+      slider.scrollBy(-10);
     }
   lastpos = newpos;
 }
