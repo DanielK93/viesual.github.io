@@ -32,11 +32,12 @@ mouseclicked = true;
 slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
 console.log("unclicked");
+
 });
 
 slider.addEventListener('mousemove', e => {
   if (mouseclicked == true){
-    var lastpos = 0;
+    var lastpos;
     var newpos;
     console.log(e.clientX);
     newpos = e.clientX;
