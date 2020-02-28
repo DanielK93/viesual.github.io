@@ -36,11 +36,13 @@ mouseclicked = true;
 posx = e.pageX;
 posy = e.pageY;
 left = slider.scrollLeft;
+slider.style.cursor = "grabbed";
 });
 
 slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
 console.log("unclicked");
+slider.style.cursor = "grab";
 
 });
 
