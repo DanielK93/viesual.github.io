@@ -25,11 +25,12 @@ prevScroll = currentScroll;
 }, 150);
 
 var slider = document.getElementById("scroll");
+var width = slider.offsetWidth
 
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
-slider.scrollLeft += 600;
+slider.scrollLeft += width;
 var sLeft = slider.scrollLeft;
 console.log(sLeft);
 });
