@@ -29,7 +29,9 @@ var width;
 
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
+console.log(e.clientX);
 width = slider.offsetWidth;
+var clickarea = width/2;
 mouseclicked = true;
 slider.scrollLeft += width;
 var sLeft = slider.scrollLeft;
