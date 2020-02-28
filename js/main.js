@@ -29,7 +29,7 @@ var slider = document.getElementById("scroll");
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
 mouseclicked = true;
-slider.scrollLeft += 10;
+slider.scrollLeft += 200;
 var sLeft = slider.scrollLeft;
 console.log(sLeft);
 });
