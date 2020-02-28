@@ -353,7 +353,7 @@ img {
 }
 
 .fullheightelem > div{
-
+  position:relative;
   width:100%;
   height:100%;
   scroll-snap-align: center;
