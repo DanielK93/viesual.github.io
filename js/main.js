@@ -17,7 +17,7 @@ var navhideshow = setInterval(function() {
 
   } else if (currentScroll - prevScroll > threshold){
     navbar.style.transform = "translate3d(0,-100%,0)";
-  
+
   }
 prevScroll = currentScroll;
 }, 150);
@@ -27,12 +27,12 @@ prevScroll = currentScroll;
 document.onclick = function(){
 
     if (open == true){
-        menutoggle.innerHTML = ":::";
+        menutoggle.innerHTML = "menu";
         mobilemenu.style.transform = "translate3d(0,-100%,0)"
         open = !open;
     } else if (event.target.id =="menutoggle" && open == false){
         console.log("1");
-        menutoggle.innerHTML = " __";
+        menutoggle.innerHTML = "close";
         mobilemenu.style.transform = "translate3d(0,0,0)"
         open = !open;
     }
