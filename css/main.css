@@ -349,11 +349,16 @@ img {
   flex: none;
   flex-flow:row nowrap;
   scroll-snap-type: x mandatory;
+  position:relative;
 }
 
 .fullheightelem > div{
+  position:absolute;
+  bottom: 20%;
   width:100%;
   height:100%;
+  scroll-snap-align: center;
+  flex: none;
 }
 
 .container {
