@@ -346,7 +346,7 @@ img {
 
 .container {
   width: 94%;
-  max-width:1350;
+  max-width:1350px;
   margin: 0 auto;
   flex-wrap: wrap;
   justify-content: space-between;
