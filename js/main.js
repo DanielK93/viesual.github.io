@@ -50,7 +50,7 @@ slider.addEventListener('mousemove', e => {
     var newY=e.pageY;
 
     //console.log(y+", "+newY+", "+top+", "+(top+(newY-y)));
-    slider.scrollLeft = left-newX;
+    slider.scrollLeft = left-newX+posx;
 }
 });
 
