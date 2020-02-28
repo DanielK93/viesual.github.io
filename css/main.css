@@ -281,6 +281,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -2.5%;
+  scroll-snap-type: y proximity;
 
   background-color: var(--offwhite);
 }
@@ -289,12 +290,14 @@ a {
   flex-basis: 44%;
   flex-grow: 1;
   margin: 0 2.5% 5%;
+  scroll-snap-align: start;
 }
 
 .flexboxitem-full {
   flex-basis: 100%;
   flex-grow: 1;
   margin: 0 2.5% 5%;
+  scroll-snap-align: start;
 }
 
 .mb9p {
