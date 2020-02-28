@@ -25,10 +25,11 @@ prevScroll = currentScroll;
 }, 150);
 
 var slider = document.getElementById("scroll");
-var width = slider.offsetWidth
+var width;
 
 slider.addEventListener('mousedown', (e) => {
 console.log("clicked");
+width = slider.offsetWidth;
 mouseclicked = true;
 slider.scrollLeft += width;
 var sLeft = slider.scrollLeft;
