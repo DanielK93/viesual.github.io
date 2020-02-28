@@ -24,6 +24,7 @@ var navhideshow = setInterval(function() {
 prevScroll = currentScroll;
 }, 150);
 
+/*
 var slider = document.getElementById("scroll");
 var width;
 
@@ -56,7 +57,7 @@ slider.addEventListener('mousemove', e => {
   lastpos = newpos;
 }
 });
-
+*/
 
 
 document.onclick = function(){

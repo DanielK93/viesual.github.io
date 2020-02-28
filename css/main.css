@@ -350,6 +350,7 @@ img {
   flex-flow:row nowrap;
   scroll-snap-type: x mandatory;
   position:relative;
+  cursor: grab;
 }
 
 .fullheightelem > div{
