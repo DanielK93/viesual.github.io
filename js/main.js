@@ -40,7 +40,7 @@ slider.addEventListener('mousemove', e => {
     console.log(e.screenX);
   }
 }
-}
+});
 
 
 
