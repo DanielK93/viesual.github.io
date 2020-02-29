@@ -367,7 +367,7 @@ img {
 
 .scrollcontainer > div{
   position:relative;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   flex: none;
 }
 
