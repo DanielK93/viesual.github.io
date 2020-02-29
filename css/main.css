@@ -373,9 +373,9 @@ img {
 
 
 .fullelement > div{
-  width:90%;
+  width:85%;
   height:100%;
-  padding: 5%;
+  margin-right:5%;
 }
 
 .disable-scrollbars::-webkit-scrollbar {
@@ -391,6 +391,7 @@ img {
 .fullelement > div > h1{
   position:absolute;
   bottom: 20%;
+  margin:0 5% 0 10%
 }
 
 .container {
