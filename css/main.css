@@ -397,7 +397,7 @@ img {
 .fullelement > div > h1{
   position:absolute;
   bottom: 20%;
-  margin:0 5% 0 10%
+  margin:0 5vw 0 10vw;
 }
 
 .container {
