@@ -381,7 +381,7 @@ img {
   width:85%;
   height:95%;
   margin-right:5%;
-  background-color:#FFB8D1;
+  background-color:black;
 }
 
 .disable-scrollbars::-webkit-scrollbar {
@@ -396,6 +396,7 @@ img {
 
 .fullelement > div > h1{
   position:absolute;
+  color:white;
   bottom: 20%;
   margin:0 5vw 0 10vw;
 }
