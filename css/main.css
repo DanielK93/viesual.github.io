@@ -343,15 +343,12 @@ img {
 
 .fullelement{
   height:100vh;
-  padding: 0 5%;
-  width:90%;
+  width:100%;
   clear:both;
   background-color: var(--offwhite);
   flex: none;
   position:relative;
 }
-
-
 
 
 
@@ -376,8 +373,9 @@ img {
 
 
 .fullelement > div{
-  width:100%;
+  width:90%;
   height:100%;
+  padding: 5%;
 }
 
 .disable-scrollbars::-webkit-scrollbar {
