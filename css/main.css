@@ -350,9 +350,9 @@ img {
   position:relative;
 }
 
-.grabbed{
-  scroll-snap-type: none !important;
-}
+
+
+
 
 .scrollcontainer{
   overflow: auto;
@@ -362,11 +362,16 @@ img {
   cursor: grab;
 }
 
+.grabbed{
+  scroll-snap-type: none;
+}
+
 .scrollcontainer > div{
   position:relative;
   scroll-snap-align: center;
   flex: none;
 }
+
 
 .fullheightelem > div{
   width:100%;
