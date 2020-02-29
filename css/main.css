@@ -131,7 +131,6 @@ h2 {
 }
 
 h3 {
-    font-family: var(--monofont);
   font-size: 2rem;
 }
 
@@ -394,7 +393,7 @@ img {
   -ms-overflow-style: none;  /* IE 10+ */
 }
 
-.fullelement > div > h1{
+.fullelement > div > h3{
   position:absolute;
   color:white;
   bottom: 20%;
