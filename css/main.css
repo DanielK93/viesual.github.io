@@ -406,6 +406,7 @@ img {
   color:white;
   top:86px;
   right:5vw;
+  font-family: var(--monofont);
 }
 
 .margin{
