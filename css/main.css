@@ -348,11 +348,10 @@ img {
   background-color: var(--offwhite);
   flex: none;
   position:relative;
-
 }
 
 .grabbed{
-  scroll-snap-type: none;
+  scroll-snap-type: none !important;
 }
 
 .scrollcontainer{
