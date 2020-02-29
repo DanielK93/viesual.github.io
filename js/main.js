@@ -30,7 +30,7 @@ var x,y,top,left,down;
 var slider = document.getElementById("scroll");
 
 slider.addEventListener('mousedown', (e) => {
-slider.style.scrollSnapType = "none";
+slider.classList.add("grabbed");
 mouseclicked = true;
 posx = e.pageX;
 posy = e.pageY;
@@ -41,6 +41,7 @@ slider.style.cursor = "grabbing";
 
 slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
+  slider.classList.remove("grabbed");
 console.log("unclicked");
 slider.style.scrollSnapType = "x proximity";
 slider.style.cursor = "grab";

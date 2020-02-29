@@ -351,6 +351,10 @@ img {
 
 }
 
+.grabbed{
+  scroll-snap-type: none;
+}
+
 .scrollcontainer{
   overflow: auto;
   display:flex;
