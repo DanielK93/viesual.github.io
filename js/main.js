@@ -35,7 +35,6 @@ mouseclicked = true;
 posx = e.pageX;
 posy = e.pageY;
 left = slider.scrollLeft;
-slider.style.cursor = "grabbing";
 
 });
 
@@ -43,7 +42,6 @@ slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
   slider.classList.remove("grabbed");
 console.log("unclicked");
-slider.style.cursor = "grab";
 });
 
 slider.addEventListener('mousemove', e => {

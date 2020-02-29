@@ -364,6 +364,7 @@ img {
 
 .grabbed{
   scroll-snap-type: none;
+  cursor: grabbing;
 }
 
 .scrollcontainer > div{
