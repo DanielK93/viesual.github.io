@@ -404,8 +404,8 @@ img {
 .fullelement > div > p{
   position: absolute;
   color:white;
-  top:86px;
-  right:5vw;
+  top: calc(5vw + 56px);
+  right: 5vw;
   font-family: var(--monofont);
 }
 
