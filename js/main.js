@@ -43,7 +43,6 @@ slider.addEventListener('mouseup', (e) => {
   mouseclicked = false;
   slider.classList.remove("grabbed");
 console.log("unclicked");
-slider.style.scrollSnapType = "x proximity";
 slider.style.cursor = "grab";
 });
 
