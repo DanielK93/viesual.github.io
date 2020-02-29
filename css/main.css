@@ -372,6 +372,11 @@ img {
 }
 
 
+.scrollcontainer > div:last-child{
+  scroll-snap-align: end;
+}
+
+
 .fullelement > div{
   width:85%;
   height:100%;
