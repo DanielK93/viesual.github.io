@@ -300,9 +300,6 @@ a {
   scroll-snap-align: center;
 }
 
-.mb9p {
-  margin-bottom: 4rem;
-}
 
 .inforow-full {
   display: grid;
@@ -421,7 +418,8 @@ img {
 }
 
 .margin{
-  margin: 0 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .textflow{
