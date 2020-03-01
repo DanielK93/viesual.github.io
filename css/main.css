@@ -405,6 +405,7 @@ img {
   color:white;
   top: calc(5vw + 56px);
   right: 5vw;
+  font-size:0.8rem;
   font-family: var(--monofont);
 }
 
