@@ -294,7 +294,7 @@ a {
 
 .flexboxitem-full {
   flex-basis: 100%;
-  flex:none;
+  flex-grow: 1;
  
   scroll-snap-align: center;
 }
@@ -322,6 +322,11 @@ a {
   font-family: var(--monofont);
   font-size:20px;
 }
+
+.limit{
+  max-width:1150px;
+}
+
 
 
 img {
@@ -410,10 +415,6 @@ img {
 
 .margin{
   margin: 0 10%;
-  width: 80%;
-  margin: 0 auto;
-  max-width: 860px;
-
 }
 
 .container {
