@@ -341,7 +341,7 @@ img {
   width: 54px;
 }
 
-.fullelement{
+.stagelement{
   height:95vh;
   width:100%;
   clear:both;
@@ -377,7 +377,7 @@ img {
 }
 
 
-.fullelement > div{
+.stagelement > div{
   width:85%;
   height:100%;
   margin-right:5%;
@@ -394,19 +394,23 @@ img {
   -ms-overflow-style: none;  /* IE 10+ */
 }
 
-.fullelement > div > h3{
+.stagelement > div > h3{
   position:absolute;
   color:white;
   bottom: 20%;
   margin:0 5vw 0 10vw;
 }
 
-.fullelement > div > p{
+.stagefeatured{
   position: absolute;
   color:white;
   top: calc(5vw + 56px);
   right: 5vw;
   font-family: var(--monofont);
+}
+
+.stagetags{
+  
 }
 
 .margin{
