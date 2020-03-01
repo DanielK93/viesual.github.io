@@ -132,7 +132,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 
 h4 {
@@ -479,6 +479,7 @@ img {
   .menulist{
     display:none;
   }
+
 
   #menutoggle{
     display:block;
