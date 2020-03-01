@@ -84,7 +84,6 @@ html {
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI",                Roboto,                Oxygen-Sans,                Ubuntu,                Cantarell,                "Helvetica Neue",                sans-serif;
   --variablefont: "93stf-v";
   --monofont: "SuisseIntlMono-Regular";
-  --margin: 10%;
 }
 
 html {
@@ -323,9 +322,6 @@ a {
   font-size:20px;
 }
 
-.limit{
-  max-width:1150px;
-}
 
 
 
