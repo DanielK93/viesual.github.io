@@ -406,6 +406,7 @@ img {
   color:white;
 }
 
+
 .stagefeatured{
   position: absolute;
   color:white;
@@ -415,7 +416,7 @@ img {
 }
 
 .stagetags{
-
+ font-family: var(--monofont);
 }
 
 .margin{
