@@ -342,7 +342,7 @@ img {
 }
 
 .fullelement{
-  height:100vh;
+  height:95vh;
   width:100%;
   clear:both;
   background-color: var(--offwhite);
@@ -379,7 +379,7 @@ img {
 
 .fullelement > div{
   width:85%;
-  height:95%;
+  height:100%;
   margin-right:5%;
   background-color:black;
 }
