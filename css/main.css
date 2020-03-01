@@ -78,7 +78,7 @@ html {
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
   --licorice: #101011;
-  --fontSize: 15px;
+  --fontSize: 16px;
   --lineHeight: calc(var(--fontSize) * 1.5);
   --spacingv: calc(var(--lineHeight) / 2);
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI",                Roboto,                Oxygen-Sans,                Ubuntu,                Cantarell,                "Helvetica Neue",                sans-serif;
@@ -415,7 +415,7 @@ img {
 .textflow{
   max-width:480px;
   margin: 0 auto;
-  
+
 }
 
 .container {
