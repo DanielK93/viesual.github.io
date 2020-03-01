@@ -296,7 +296,7 @@ a {
 .flexboxitem-full {
   flex-basis: 100%;
   flex-grow: 1;
-  top: calc(5vw + 40px);
+  margin-bottom: calc(5vw + 40px);
   scroll-snap-align: center;
 }
 
