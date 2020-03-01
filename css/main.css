@@ -398,8 +398,11 @@ img {
   position:absolute;
   color:white;
   bottom: 20%;
-  color:white;
   margin:0 5vw 0 10vw;
+}
+
+.stagetext h3{
+  color:white;
 }
 
 .stagefeatured{
