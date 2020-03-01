@@ -409,9 +409,10 @@ img {
 }
 
 .margin{
+  margin: 0 10%;
   width: 80%;
   margin: 0 auto;
-  max-width: 786px;
+  max-width: 860px;
 
 }
 
