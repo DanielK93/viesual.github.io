@@ -109,7 +109,7 @@ a {
 
 h1,h2,h3 {
   color: var(--blacktext );
-  margin: 0 0 1rem 0;
+
   line-height: 1.2;
   font-weight: normal;
 }
@@ -123,6 +123,7 @@ h4 {
 h1 {
   font-family: Telegraf-Regular;
   font-size: 70px;
+  margin: 0 0 2.5rem 0;
   line-height: 1.1;
 }
 
