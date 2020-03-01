@@ -412,6 +412,12 @@ img {
   margin: 0 10%;
 }
 
+.textflow{
+  max-width:480px;
+  margin: 0 auto;
+  
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
