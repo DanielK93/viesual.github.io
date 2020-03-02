@@ -377,7 +377,9 @@ img {
   margin-bottom: 40px;
 }
 
-
+.stagelink a {
+  color: var(--offwhite);
+}
 
 .scrollcontainer {
   overflow: auto;
