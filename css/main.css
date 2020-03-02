@@ -469,18 +469,7 @@ margin: 0 0 1rem 0;
     display: block;
   }
 
-  h1 {
-    font-size: 3rem;
-    line-height: 1.2;
-  }
 
-  h2 {
-    font-size: 2.2rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
 
   .inforow-full {
     display: grid;
