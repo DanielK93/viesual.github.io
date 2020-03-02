@@ -386,7 +386,7 @@ img {
   width: 85%;
   height: 95%;
   margin-right: 5%;
-  background-color: pink;
+  background-color: #ddd;
 }
 
 .disable-scrollbars::-webkit-scrollbar {
