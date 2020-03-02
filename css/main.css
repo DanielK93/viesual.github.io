@@ -140,7 +140,7 @@ h4 {
   content: "→ ";
 }
 
-.stagelink a::after {
+.page a::after {
   content: " ";
   position:absolute;
   width:100%;
