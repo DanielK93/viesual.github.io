@@ -194,6 +194,11 @@ margin: 0 auto;
   font-family: var(--monofont);
 }
 
+.monofont{
+  font-family: var(--monofont);
+  font-size: 0.5px;
+}
+
 .contactlinks a{
   float:left;
   clear:both;
@@ -419,7 +424,6 @@ img {
   color:white;
   top: calc(5vw + 56px);
   right: 5vw;
-  font-family: var(--monofont);
 }
 
 .stagetags{
@@ -436,6 +440,8 @@ img {
   margin: 0 auto;
 
 }
+
+
 
 .container {
   width: 100%;
