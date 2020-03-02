@@ -136,7 +136,7 @@ h4 {
 }
 
 .page a::before, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
-  content: "→";
+  content: "→ ";
 }
 
 .wrap {
