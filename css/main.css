@@ -140,7 +140,7 @@ h4 {
   content: "→ ";
 }
 
-.page a::after, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
+.stagelink a::after {
   content: " ";
   position:absolute;
   width:100%;
