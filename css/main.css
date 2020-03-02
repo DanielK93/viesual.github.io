@@ -168,7 +168,7 @@ h4 {
   margin: 0 auto;
 }
 
-.item-10 ul li{
+.item-33 ul li{
   margin-bottom:1rem;
 
 }
@@ -313,7 +313,7 @@ a {
   background-color: var(--offwhite);
 }
 
-.item-35 {
+.item-66 {
   flex-basis: 360px;
   flex-grow: 1;
   scroll-snap-align: center;
@@ -322,7 +322,7 @@ a {
   margin: 0 10% calc(5vw + 40px) 10%;
 }
 
-.item-10 {
+.item-33 {
   flex-basis: 148px;
   scroll-snap-align: center;
   margin-left:10%;
@@ -330,6 +330,23 @@ a {
   max-width:324px;
 }
 
+.item-50 {
+  flex-basis: 148px;
+  scroll-snap-align: center;
+  margin-left:10%;
+  margin-bottom: calc(5vw + 40px);
+  max-width:324px;
+}
+
+.margin-l {
+  margin-left:10%;
+  margin-right: 5%;
+}
+
+.margin-r {
+  margin-left: 5%;
+  margin-right: 10%;
+}
 
 .flexboxitem-full {
   flex-basis: 100%;
