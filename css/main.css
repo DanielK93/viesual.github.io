@@ -365,6 +365,7 @@ max-height:35vw;
   .item-100{
     margin-left: 0;
     margin-right: 0;
+    max-height:50vw;
   }
 
   .text{
