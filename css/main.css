@@ -335,7 +335,7 @@ a {
   scroll-snap-align: center;
   margin-left:10%;
   margin-bottom: calc(5vw + 40px);
-  max-width:324px;
+  max-width:500px;
 }
 
 .margin-l {
