@@ -286,18 +286,18 @@ a {
   background-color: var(--offwhite);
 }
 
-.flexboxitem-halfth {
+.item-halfth {
   flex-basis: 35%;
   flex-grow: 1;
   scroll-snap-align: center;
 }
 
-.flexboxitem-halfth:nth-of-type(2n+1){
+.item-halfth:nth-of-type(2n+1){
 margin: 0 5% calc(5vw + 40px) 10%;
 }
 
 
-.flexboxitem-halfth:nth-of-type(2n){
+.item-halfth:nth-of-type(2n){
   margin: 0 10% calc(5vw + 40px) 5%;
   }
 
