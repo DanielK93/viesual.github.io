@@ -349,7 +349,7 @@ a {
   margin-right: 10%;
 }
 
-.flexboxitem-full {
+.item-100 {
   flex-basis: 100%;
   flex-grow: 1;
   margin-bottom: calc(5vw + 40px);
@@ -358,6 +358,15 @@ a {
 margin-left: 10%;
 margin-right: 10%;
 max-height:40vw;
+}
+
+@media screen and (max-width:816px) {
+ 
+  .item-100{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }
 
 .inforow-full {
