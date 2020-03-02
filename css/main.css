@@ -123,7 +123,7 @@ h4 {
 
 h1 {
   font-family: Telegraf-Regular;
-  font-size: calc(3rem + var(--scale));
+  font-size: calc(2rem + var(--scale));
   margin: 0 0 2.5rem 0;
   line-height: 1.1;
 }
