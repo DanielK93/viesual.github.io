@@ -303,6 +303,7 @@ a {
   scroll-snap-align: center;
   margin-bottom: calc(5vw + 40px);
   max-width: 648px;
+  margin: 0 10% calc(5vw + 40px) 10%;
 }
 
 .item-10 {
@@ -313,13 +314,6 @@ a {
   max-width:324px;
 }
 
-.item-35:nth-of-type(2n+1) {
-  margin: 0 5% calc(5vw + 40px) 10%;
-}
-
-.item-35:nth-of-type(2n) {
-  margin: 0 10% calc(5vw + 40px) 5%;
-}
 
 .flexboxitem-full {
   flex-basis: 100%;
