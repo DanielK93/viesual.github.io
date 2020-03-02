@@ -400,10 +400,7 @@ img {
 }
 
 .stagefeatured {
-  position: absolute;
-  color: white;
-  top: calc(5vw + 56px);
-  right: 5vw;
+
 }
 
 .margin {
