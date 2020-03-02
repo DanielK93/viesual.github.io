@@ -126,7 +126,7 @@ h2 {
 }
 
 h3 {
-  font-size: calc(20px + 3.5vw);
+  font-size: calc(1rem + 3.5vw);
   margin: 0 0 1.5rem 0;
 }
 
