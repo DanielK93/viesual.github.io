@@ -136,8 +136,7 @@ h4 {
 }
 
 .page a::before, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
-  font-family: var(--variablefont);
-  content: "--> ";
+  content: "→";
 }
 
 .wrap {
