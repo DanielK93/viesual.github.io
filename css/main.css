@@ -75,7 +75,7 @@ html {
   --offwhite: #fafafa;
   --licorice: #101011;
   --fontSize: 22px;
-  --scale: 3.5vw;
+  --scale: 3vw;
   --lineHeight: calc(var(--fontSize) * 1.5);
   --spacingv: calc(var(--lineHeight) / 2);
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
