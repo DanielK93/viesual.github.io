@@ -128,7 +128,7 @@ h3 {
 }
 
 h2 {
-  font-size: calc(1rem + var(--scale));
+  font-size: calc(1.3rem + var(--scale));
   margin: 0 0 1rem 0;
 }
 
