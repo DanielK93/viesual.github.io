@@ -292,17 +292,23 @@ a {
   background-color: var(--offwhite);
 }
 
-.item-halfth {
+.item-35 {
   flex-basis: 35%;
   flex-grow: 1;
   scroll-snap-align: center;
 }
 
-.item-halfth:nth-of-type(2n+1) {
+.item-10 {
+  flex-basis: 10%;
+  flex-grow: 1;
+  scroll-snap-align: center;
+}
+
+.item-35:nth-of-type(2n+1) {
   margin: 0 5% calc(5vw + 40px) 10%;
 }
 
-.item-halfth:nth-of-type(2n) {
+.item-35:nth-of-type(2n) {
   margin: 0 10% calc(5vw + 40px) 5%;
 }
 
