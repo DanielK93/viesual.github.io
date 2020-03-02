@@ -369,6 +369,9 @@ max-height:35vw;
 
   .text{
     flex-basis: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width:864px;
   }
 
 
