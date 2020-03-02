@@ -70,6 +70,7 @@ html {
   --blacktext: rgba(0, 0, 0, .95);
   --greytext: rgba(0, 0, 0, .75);
   --linkcolor: rgba(0, 0, 0, .95);
+  --whitetext: rgba(255,255,255, 0.95);
   --desertsand: #eabda8;
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
@@ -378,7 +379,7 @@ img {
 }
 
 .stagelink a {
-  color: var(--offwhite);
+  color: var(--whitetext);
 }
 
 .scrollcontainer {
@@ -426,14 +427,13 @@ img {
 
 .stagetext {
   position: absolute;
-  color: white;
+  color: var(--whitetext);
   bottom: 30%;
   margin: 0 5vw 0 10vw;
 }
 
 .stagelink{
   position: absolute;
-  color: white;
   bottom: 15%;
   margin: 0 5vw 0 10vw;
 }
