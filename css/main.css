@@ -357,6 +357,8 @@ img {
   margin-bottom: 40px;
 }
 
+
+
 .scrollcontainer {
   overflow: auto;
   display: flex;
@@ -404,6 +406,13 @@ img {
   position: absolute;
   color: white;
   bottom: 20%;
+  margin: 0 5vw 0 10vw;
+}
+
+.stagelink{
+  position: absolute;
+  color: white;
+  bottom: 10%;
   margin: 0 5vw 0 10vw;
 }
 
