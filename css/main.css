@@ -336,6 +336,7 @@ a {
   margin-left:10%;
   margin-bottom: calc(5vw + 40px);
   max-width:500px;
+  flex-grow: 1;
 }
 
 .margin-l {
