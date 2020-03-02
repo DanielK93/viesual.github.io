@@ -306,7 +306,7 @@ a {
 }
 
 .item-10 {
-  flex-basis: 160px;
+  flex-basis: 148px;
   scroll-snap-align: center;
   margin-left:10%;
   margin-bottom: calc(5vw + 40px);
