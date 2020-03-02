@@ -372,7 +372,7 @@ img {
   width: 85%;
   height: 95%;
   margin-right: 5%;
-  background-color: black;
+  background-color: pink;
 }
 
 .disable-scrollbars::-webkit-scrollbar {
