@@ -321,7 +321,6 @@ a {
   margin-bottom: calc(5vw + 40px);
   scroll-snap-align: center;
   max-width: 1150px;
-margin: 0 auto;
 margin-left: 10%;
 margin-right: 10%;
 }
