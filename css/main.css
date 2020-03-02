@@ -297,6 +297,7 @@ a {
   flex-grow: 1;
   scroll-snap-align: center;
   margin-bottom: calc(5vw + 40px);
+  max-width: 648px;
 }
 
 .item-10 {
@@ -305,6 +306,7 @@ a {
   scroll-snap-align: center;
   margin-left:10%;
   margin-bottom: calc(5vw + 40px);
+  max-width:324px;
 }
 
 .item-35:nth-of-type(2n+1) {
