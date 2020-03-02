@@ -405,14 +405,14 @@ img {
 .stagetext {
   position: absolute;
   color: white;
-  bottom: 20%;
+  bottom: 30%;
   margin: 0 5vw 0 10vw;
 }
 
 .stagelink{
   position: absolute;
   color: white;
-  bottom: 10%;
+  bottom: 15%;
   margin: 0 5vw 0 10vw;
 }
 
