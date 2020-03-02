@@ -160,6 +160,11 @@ h4 {
   margin: 0 auto;
 }
 
+.item-10 ul li{
+  margin-bottom:1.5rem;
+
+}
+
 #navbar {
   transition: all 0.35s ease-in-out;
 }
