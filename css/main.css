@@ -293,7 +293,7 @@ a {
   scroll-snap-align: center;
 }
 
-.flexboxitem-halfth:nth-child(odd){
+.flexboxitem-halfth:nth-of-type(odd){
 margin: 0 5% calc(5vw + 40px) 10%;
 }
 
