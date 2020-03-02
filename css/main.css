@@ -74,7 +74,7 @@ html {
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
   --licorice: #101011;
-  --fontSize: 22px;
+  --fontSize: 20px;
   --scale: 3vw;
   --lineHeight: calc(var(--fontSize) * 1.5);
   --spacingv: calc(var(--lineHeight) / 2);
