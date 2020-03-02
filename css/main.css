@@ -515,7 +515,7 @@ margin: 0 0 1rem 0;
 @media screen and (max-width:620px) {
 
   :root {
-    --fontSize: 16px;
+    --fontSize: 18px;
   }
 
   .menulist {
