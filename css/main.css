@@ -289,13 +289,17 @@ a {
 .flexboxitem-halfth {
   flex-basis: 35%;
   flex-grow: 1;
-  margin: 0 10% calc(5vw + 40px) 5%;
   scroll-snap-align: center;
 }
 
 .flexboxitem-halfth:nth-of-type(2n+1){
 margin: 0 5% calc(5vw + 40px) 10%;
 }
+
+
+.flexboxitem-halfth:nth-of-type(2n){
+  margin: 0 10% calc(5vw + 40px) 5%;
+  }
 
 .flexboxitem-full {
   flex-basis: 100%;
