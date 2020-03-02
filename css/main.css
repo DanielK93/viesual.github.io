@@ -360,12 +360,17 @@ margin-right: 10%;
 max-height:35vw;
 }
 
-@media screen and (max-width:816px) {
+@media screen and (max-width:864px) {
  
   .item-100{
     margin-left: 0;
     margin-right: 0;
   }
+
+  .text{
+    flex-basis: 100%;
+  }
+
 
 }
 
