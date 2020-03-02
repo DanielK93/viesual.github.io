@@ -140,7 +140,7 @@ h4 {
   content: "→ ";
 }
 
-.page a::before, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
+.page a::after, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
   content: " ";
   position:absolute;
   width:100%;
