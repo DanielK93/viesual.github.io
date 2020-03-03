@@ -158,7 +158,7 @@ h4 {
   background-color:var(--whitetext);
 }
 
-.flexboxcontainer a::after {
+.flexboxcontainer a::after, .footer a::after {
   background-color:black;
 }
 
