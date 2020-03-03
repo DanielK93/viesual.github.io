@@ -428,13 +428,13 @@ user-select: none;
 }
 
 .stagelement {
-  height: 100vh;
+  height: 95vh;
   width: 100%;
   clear: both;
   background-color: var(--offwhite);
   flex: none;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 5vh;
 }
 
 .stagelink a {
