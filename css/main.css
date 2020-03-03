@@ -168,7 +168,6 @@ h4 {
 
 .divcontent {
   width: 100%;
-  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -186,9 +185,9 @@ h4 {
   top: 0;
   left: 0;
   z-index: 3;
-  width: 90%;
+  width: 80%;
   height: 20px;
-  padding: 18px 5% 18px;
+  padding: 20px 10% 20px;
   font-family: Telegraf-Regular;
   font-size: 1.4rem;
   background-color: var(--offwhite);
