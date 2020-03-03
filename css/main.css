@@ -136,7 +136,7 @@ h4 {
   font-size: 1.2rem;
 }
 
-.page a::before, .contactlinks a::before, .mobilecontactlinks a::before, .footerlinks li::before {
+.page a::before, .contactlinks a::before, .mobilecontactlinks a::before {
   font-family: Telegraf-Regular;
   content: "→ ";
 }
@@ -231,8 +231,7 @@ h4 {
 }
 
 .footer {
-  margin: 45px 3%;
-  column-count: 2;
+  margin: 0 10%;
 }
 
 .stageimage{
@@ -243,9 +242,6 @@ h4 {
   height:100%;
 }
 
-.footerlinks li {
-  margin-bottom: 12px;
-}
 
 .menulist {
   display: inline;
