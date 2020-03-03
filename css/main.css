@@ -430,7 +430,7 @@ user-select: none;
 
 
 .stagelement {
-  height: 60vh;
+  height: 66vh;
   width: 100%;
   clear: both;
   background-color: var(--offwhite);
@@ -519,8 +519,8 @@ margin: 0 0 1rem 0;
 }
 
 .understage{
-  height:35vh;
-  max-height:35vh;
+  height:29vh;
+  max-height:29vh;
 }
 
 .container {
