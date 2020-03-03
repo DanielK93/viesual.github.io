@@ -136,7 +136,7 @@ h4 {
   font-size: 1.3rem;
 }
 
-.page a::before, .contactlinks a::before, .mobilecontactlinks a::before {
+.page a::before {
   font-family: Telegraf-Regular;
   content: "→ ";
 }
