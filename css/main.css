@@ -427,8 +427,10 @@ user-select: none;
   width: 54px;
 }
 
+
+
 .stagelement {
-  height: 95vh;
+  height: 50vh;
   width: 100%;
   clear: both;
   background-color: var(--offwhite);
@@ -514,6 +516,11 @@ margin: 0 0 1rem 0;
 .textflow {
   max-width: 648px;
   margin: 0 auto;
+}
+
+.understage{
+  height:45vh;
+  max-height:45vh;
 }
 
 .container {
