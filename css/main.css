@@ -325,16 +325,16 @@ a {
   flex-basis: 360px;
   flex-grow: 1;
   scroll-snap-align: center;
-  margin-bottom: calc(5vw + 40px);
+  margin-bottom: 55px;
   max-width: 648px;
-  margin: 0 10% calc(5vw + 40px) 10%;
+  margin: 0 10% 55px 10%;
 }
 
 .item-33 {
   flex-basis: 148px;
   scroll-snap-align: center;
   margin-left:10%;
-  margin-bottom: calc(5vw + 40px);
+  margin-bottom: 55px);
   max-width:324px;
 }
 
@@ -342,7 +342,7 @@ a {
   flex-basis: 148px;
   scroll-snap-align: center;
   margin-left:10%;
-  margin-bottom: calc(5vw + 40px);
+  margin-bottom: 55px;
   max-width:500px;
   flex-grow: 1;
 }
