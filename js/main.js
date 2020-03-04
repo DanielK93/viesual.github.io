@@ -11,6 +11,7 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 
+/*
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
 
@@ -23,6 +24,8 @@ var navhideshow = setInterval(function() {
   }
 prevScroll = currentScroll;
 }, 150);
+
+*/
 
 var x,y,top,left,down;
 
