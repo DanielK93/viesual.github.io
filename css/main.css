@@ -221,8 +221,9 @@ h4 {
 
 .introsection{
   width:80%;
-  margin: 0 10%;
+  margin: 10vh 10% 0;
   height:50vh;
+  
 }
 
 .contactlinks a {
