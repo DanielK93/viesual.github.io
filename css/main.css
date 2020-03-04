@@ -467,9 +467,9 @@ user-select: none;
 }
 
 .stagelement>div {
-  width: 85%;
+  width: 75%;
   height: 95%;
-  margin-right: 5%;
+  margin-right: 10%;
   background-color: #ddd;
 }
 
