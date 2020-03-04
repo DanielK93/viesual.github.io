@@ -219,9 +219,15 @@ h4 {
   line-height:1.2;
 }
 
+.copytext{
+  font-family: var(--monofont);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .introsection{
   width:80%;
-  margin: 10vh 10% 0;
+  margin: 25vh 10% 0;
   height:50vh;
   
 }
