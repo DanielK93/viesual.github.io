@@ -387,6 +387,17 @@ margin-right: 2.55%;
 max-height:35vw;
 }
 
+@media screen and (max-width:620px) {
+
+  .item-25 {
+    flex-basis: 45%;
+     max-width:45%;
+  }
+
+  
+
+}
+
 .infotext{
   font-size: var(--infofontsize);
   color: var(--lighttext);
