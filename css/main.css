@@ -318,10 +318,8 @@ h4 {
 }
 
 .logo {
-  float: left;
-  height: auto;
-  text-transform: none;
-  width: 80px;
+line-height:1;
+font-size:3rem;
 }
 
 #menutoggle {
