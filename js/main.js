@@ -16,7 +16,10 @@ var h = window.innerHeight;
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
   if(currentScroll > h/2){
-    navbar.style.display = "block";
+    navbar.style.transform = "translate3d(0,0,0)";
+  }
+  if(currentScroll < h/2){
+    navbar.style.transform = "translate3d(0,-100%,0)";
   }
 
 }, 150);
