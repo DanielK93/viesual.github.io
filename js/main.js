@@ -10,12 +10,18 @@ var threshold = 50;
 var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
+var h = window.innerHeight;
 
 var element = document.elementFromPoint(6, 64);
 console.log(element);
 
+var navhideshow = setInterval(function() {
+  var currentScroll = window.pageYOffset;
+  if(currentScroll > h/2){
+    navbar.style.display = "block";
+  }
 
-
+}, 150);
 /*
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
