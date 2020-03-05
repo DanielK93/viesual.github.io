@@ -21,8 +21,7 @@ var navhideshow = setInterval(function() {
   if(currentScroll < h/2){
     navbar.style.transform = "translate3d(0,-100%,0)";
   }
-
-}, 150);
+}, 200);
 /*
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
