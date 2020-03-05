@@ -401,6 +401,23 @@ max-height:35vw;
 
 }
 
+@media screen and (max-width:620px) {
+
+  .item-25 {
+    flex-basis: 95%;
+     max-width:95%;
+  }
+
+  .item-50 {
+    flex-basis: 95%;
+     max-width:95%;
+  }
+
+
+  
+
+}
+
 .infotext{
   font-size: var(--infofontsize);
   color: var(--lighttext);
