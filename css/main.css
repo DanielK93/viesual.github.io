@@ -152,6 +152,7 @@ h4 {
   left:0;
 }
 
+
 .flexboxcontainer ul {
   font-family: var(--monofont);
 }
@@ -551,6 +552,11 @@ margin: 0 0 1rem 0;
   height:29vh;
   max-height:29vh;
 }
+
+.nolinks li {
+  margin-bottom: calc(1rem + 5px);
+}
+
 
 .container {
   width: 100%;
