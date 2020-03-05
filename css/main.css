@@ -187,7 +187,7 @@ h4 {
   z-index: 3;
   width: 80%;
   height: 20px;
-  padding: 15px 10% 24px;
+  padding: 15px 5% 24px;
   font-family: Telegraf-Regular;
   font-size: 1.4rem;
   background-color: var(--offwhite);
@@ -227,8 +227,8 @@ h4 {
 
 .introsection{
   width:80%;
-  margin: 25vh 10%;
-  
+  margin: 25vh 5%;
+
 }
 
 .contactlinks a {
@@ -242,7 +242,7 @@ h4 {
 }
 
 .footer {
-  margin: 65px 10% 3rem;
+  margin: 65px 5% 3rem;
 }
 
 .footer ul li {
@@ -339,13 +339,13 @@ a {
   scroll-snap-align: center;
   margin-bottom: 55px;
   max-width: 648px;
-  margin: 0 10% 55px 10%;
+  margin: 0 5% 55px 5%;
 }
 
 .item-33 {
   flex-basis: 148px;
   scroll-snap-align: center;
-  margin-left:10%;
+  margin-left:5%;
   margin-bottom: 55px;
   max-width:324px;
 }
@@ -353,20 +353,20 @@ a {
 .item-50 {
   flex-basis: 148px;
   scroll-snap-align: center;
-  margin-left:10%;
+  margin-left:5%;
   margin-bottom: 55px;
   max-width:500px;
   flex-grow: 1;
 }
 
 .margin-l {
-  margin-left:10%;
+  margin-left:5%;
   margin-right: 5%;
 }
 
 .margin-r {
   margin-left: 5%;
-  margin-right: 10%;
+  margin-right: 5%;
 }
 
 .item-100 {
@@ -375,8 +375,8 @@ a {
   margin-bottom: 55px;
   scroll-snap-align: center;
   max-width: 1150px;
-margin-left: 10%;
-margin-right: 10%;
+margin-left: 5%;
+margin-right: 5%;
 max-height:35vw;
 }
 
@@ -390,8 +390,8 @@ max-height:35vw;
 
   .text{
     flex-basis: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     max-width:864px;
   }
 
@@ -481,7 +481,7 @@ user-select: none;
 .stagelement>div {
   width: 75%;
   height: 95%;
-  margin-right: 10%;
+  margin-right: 5%;
   background-color: #ddd;
 }
 
@@ -502,13 +502,13 @@ user-select: none;
   position: absolute;
   color: var(--whitetext);
   bottom: 30%;
-  margin: 0 5vw 0 10vw;
+  margin: 0 5vw 0 5vw;
 }
 
 .stagelink{
   position: absolute;
   bottom: 15%;
-  margin: 0 5vw 0 10vw;
+  margin: 0 5vw 0 5vw;
   font-family: var(--monofont);
 }
 
@@ -521,8 +521,8 @@ margin: 0 0 1rem 0;
 }
 
 .margin {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .textflow {
