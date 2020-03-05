@@ -133,6 +133,7 @@ h2 {
 }
 
 h4 {
+  font-family: var(--monofont);
   font-size: 1rem;
   margin: 0 0 1rem 0;
 }
