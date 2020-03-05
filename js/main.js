@@ -11,7 +11,7 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 
-var element = document.elementFromPoint(1, 1);
+var element = document.elementFromPoint(6, 64);
 console.log(element);
 
 
