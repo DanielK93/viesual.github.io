@@ -322,6 +322,7 @@ ul li a{
 .logo {
 line-height:1;
 font-size:2rem;
+margin-top:36px;
 }
 
 #menutoggle {
@@ -559,9 +560,12 @@ margin: 0 0 1rem 0;
   max-height:29vh;
 }
 
-.nolinks > li {
-  margin-bottom: calc(1rem + 5px);
+
+
+.nolinks{
+  margin-top:42px;
 }
+
 
 
 .container {
