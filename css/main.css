@@ -154,9 +154,6 @@ h4 {
 }
 
 
-.flexboxcontainer ul {
-}
-
 .stagelink a::after {
   background-color:var(--whitetext);
 }
