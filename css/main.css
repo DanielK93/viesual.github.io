@@ -328,9 +328,11 @@ a {
 .flexboxcontainer {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
   scroll-snap-type: y proximity;
   background-color: var(--offwhite);
+  width: 95%;
+margin: 0 auto;
+}
 }
 
 .item-66 {
@@ -339,13 +341,13 @@ a {
   scroll-snap-align: center;
   margin-bottom: 55px;
   max-width: 648px;
-  margin: 0 5% 55px 5%;
+  margin: 2.5%;
 }
 
 .item-33 {
   flex-basis: 148px;
   scroll-snap-align: center;
-  margin-left:5%;
+  margin: 2.5%;
   margin-bottom: 55px;
   max-width:324px;
 }
@@ -353,21 +355,12 @@ a {
 .item-50 {
   flex-basis: 148px;
   scroll-snap-align: center;
-  margin-left:5%;
+  margin: 2.5%;
   margin-bottom: 55px;
   max-width:500px;
   flex-grow: 1;
 }
 
-.margin-l {
-  margin-left:5%;
-  margin-right: 5%;
-}
-
-.margin-r {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 .item-100 {
   flex-basis: 100%;
@@ -375,8 +368,8 @@ a {
   margin-bottom: 55px;
   scroll-snap-align: center;
   max-width: 1150px;
-margin-left: 5%;
-margin-right: 5%;
+margin-left: 2.5%;
+margin-right: 2.55%;
 max-height:35vw;
 }
 
