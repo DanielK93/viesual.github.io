@@ -78,8 +78,8 @@ html {
   --offwhite: #fafafa;
   --licorice: #101011;
   --base: 6px;
-  --Standardfontsize: calc(var(--base) * 3);
-  --infofontsize: calc(var(--base) * 2);
+  --Standardfontsize: 18px;
+  --infofontsize: 12px;
   --scale: 3vw;
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --variablefont: "93stf-v";
@@ -396,6 +396,12 @@ max-height:35vw;
     flex-basis: 45%;
      max-width:45%;
   }
+
+  :root {
+    --Standardfontsize: 16px;
+    --infofontsize: 12px;
+  }
+  
 
   
 
