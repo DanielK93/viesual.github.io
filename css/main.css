@@ -187,6 +187,12 @@ h4 {
   margin-bottom:1rem;
 }
 
+.logobar{
+  width:90px;
+  float:left;
+
+}
+
 #navbar {
   transition: all 0.35s ease-in-out;
 }
