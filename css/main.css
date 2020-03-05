@@ -430,23 +430,6 @@ max-height:35vw;
   font-family: var(--monofont);
 }
 
-@media screen and (max-width:864px) {
-
-  .item-100{
-    margin-left: 0;
-    margin-right: 0;
-    max-height:50vw;
-  }
-
-  .text{
-    flex-basis: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
-    max-width:864px;
-  }
-
-
-}
 
 .inforow-full {
   display: grid;
@@ -647,9 +630,6 @@ margin: 0 0 1rem 0;
 
 @media screen and (max-width:620px) {
 
-  :root {
-    --Standardfontsize: 18px;
-  }
 
 
 }
