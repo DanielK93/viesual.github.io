@@ -179,6 +179,7 @@ h4 {
 ul li{
   height: 24px;
   margin-bottom: 1.5rem;
+  line-height: 1.4;
 }
 
 ul li a{
