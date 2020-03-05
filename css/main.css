@@ -198,7 +198,7 @@ h4 {
 }
 
 #navbar {
-  transition: all 0.35s ease-in-out;
+  transition: all 0.2s ease-in-out;
   transform: translate3d(0,-100%,0);
 }
 
