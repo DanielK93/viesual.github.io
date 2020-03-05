@@ -199,7 +199,7 @@ h4 {
 
 #navbar {
   transition: all 0.35s ease-in-out;
-  display:none;
+  transform: translate3d(0,-100%,0);
 }
 
 .headercontainer {
