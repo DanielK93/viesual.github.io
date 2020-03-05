@@ -166,11 +166,7 @@ h4 {
   background-color:black;
 }
 
-.infotext{
-  font-size: var(--infofontsize);
-  color: var(--lighttext);
-  margin-bottom:2rem;
-}
+
 
 .wrap {
   display: flex;
@@ -394,6 +390,12 @@ margin: 0 auto;
 margin-left: 2.5%;
 margin-right: 2.55%;
 max-height:35vw;
+}
+
+.infotext{
+  font-size: var(--infofontsize);
+  color: var(--lighttext);
+  margin-bottom:2rem;
 }
 
 @media screen and (max-width:864px) {
