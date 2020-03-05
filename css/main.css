@@ -188,6 +188,9 @@ ul li a{
   height:66vh;
 }
 
+p{
+  margin-bottom:2rem;
+}
 .logobar{
   width:90px;
   float:left;
