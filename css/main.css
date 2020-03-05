@@ -449,7 +449,17 @@ user-select: none;
   flex: none;
   position: relative;
   margin-bottom: 5vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
+
+.stagetitle { grid-area: 2 / 1 / 3 / 4; }
+.stagedate { grid-area: 1 / 1 / 2 / 2; }
+.stagetags { grid-area: 1 / 2 / 2 / 3; }
+.stagelinks { grid-area: 1 / 3 / 2 / 4; } 
 
 .stagelink a {
   color: var(--whitetext);
