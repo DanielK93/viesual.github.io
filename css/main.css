@@ -169,6 +169,7 @@ h4 {
 .infotext{
   font-size: var(--infofontsize);
   color: var(--lighttext);
+  margin-bottom:2rem;
 }
 
 .wrap {
