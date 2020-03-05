@@ -338,7 +338,6 @@ margin: 0 auto;
 .item-66 {
   flex-basis: 360px;
   flex-grow: 1;
-  scroll-snap-align: center;
   margin-bottom: 55px;
   max-width: 648px;
   margin: 2.5%;
