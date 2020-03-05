@@ -360,6 +360,14 @@ margin: 0 auto;
   flex-grow: 1;
 }
 
+.item-25 {
+  flex-basis: 20%;
+  scroll-snap-align: center;
+  margin: 2.5%;
+  margin-bottom: 55px;
+  flex-grow: 1;
+}
+
 
 .item-100 {
   flex-basis: 100%;
