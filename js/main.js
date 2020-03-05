@@ -11,6 +11,10 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 
+console.log(document.elementFromPoint.classList.contains.(section1));
+
+
+
 /*
 var navhideshow = setInterval(function() {
   var currentScroll = window.pageYOffset;
