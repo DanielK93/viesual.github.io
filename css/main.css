@@ -75,9 +75,10 @@ html {
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
   --licorice: #101011;
-  --fontSize: 20px;
+  --Standardfontsize: 18px;
+  --infofontsize: 0.7rem;
   --scale: 1vw;
-  --lineHeight: calc(var(--fontSize) * 1.5);
+  --lineHeight: calc(var(--Standardfontsize) * 1.5);
   --spacingv: calc(var(--lineHeight) / 2);
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --variablefont: "93stf-v";
@@ -86,7 +87,7 @@ html {
 
 html {
   height: 100%;
-  font-size: var(--fontSize);
+  font-size: var(--Standardfontsize);
 }
 
 body {
@@ -603,7 +604,7 @@ margin: 0 0 1rem 0;
 @media screen and (max-width:620px) {
 
   :root {
-    --fontSize: 18px;
+    --Standardfontsize: 18px;
   }
 
 
