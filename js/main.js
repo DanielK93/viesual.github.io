@@ -11,7 +11,8 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 
-console.log(document.elementFromPoint.classList.contains.(section1));
+var element = document.elementFromPoint(1, 1);
+console.log(element);
 
 
 
