@@ -155,7 +155,6 @@ h4 {
 
 
 .flexboxcontainer ul {
-  font-family: var(--monofont);
 }
 
 .stagelink a::after {
@@ -183,12 +182,12 @@ h4 {
 }
 
 .item-25 ul li{
-  margin-bottom:2rem;
+  margin-bottom:1.5rem;
   line-height: 1;
 }
 
 .item-50 ul li{
-  margin-bottom:2rem;
+  margin-bottom:1.5;
   line-height: 1;
 }
 
@@ -397,7 +396,7 @@ max-height:35vw;
 .infotext{
   font-size: var(--infofontsize);
   color: var(--lighttext);
-  margin-bottom:2rem;
+  font-family: var(--monofont);
 }
 
 @media screen and (max-width:864px) {
