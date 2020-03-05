@@ -71,6 +71,7 @@ html {
   --greytext: rgba(0, 0, 0, .75);
   --linkcolor: rgba(0, 0, 0, .95);
   --whitetext: rgba(255,255,255, 0.95);
+  --lighttext: rgba(0,0,0,.5);
   --desertsand: #eabda8;
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
@@ -163,6 +164,11 @@ h4 {
 
 .flexboxcontainer a::after, .footer a::after {
   background-color:black;
+}
+
+.infotext{
+  font-size: var(--infofontsize);
+  color: var(--lighttext);
 }
 
 .wrap {
