@@ -435,6 +435,7 @@ max-height:35vw;
   display:grid;
   grid-template-columns: 120px, auto, 180, 180;
   grid-template-rows: auto;
+  grid-column-gap: 5vw;
 }
 
 .inforow-full {
