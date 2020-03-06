@@ -135,7 +135,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         cover.classList.add("move-up");
         this.oldContainer.addEventListener("animationend", function(){
             _this.oldContainer.style.display = "none"
-            
+            cover.style.display = "none"
             document.getElementById("barba-wrapper").removeChild(_this.oldContainer);
             window.scrollTo(0, 0);
             startfadein();
