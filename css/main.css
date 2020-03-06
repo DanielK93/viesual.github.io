@@ -442,6 +442,10 @@ max-height:35vw;
   height:100vh;
 }
 
+.span2{
+  grid-column: span 2;
+}
+
 .right{
   text-align:right;
 }
