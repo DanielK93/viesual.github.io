@@ -433,7 +433,7 @@ max-height:35vw;
 
 .gridcontainer{
   display:grid;
-  grid-template-columns: 1fr, 3fr, 1fr, 1fr;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 20px;
 }
