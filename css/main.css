@@ -436,6 +436,7 @@ max-height:35vw;
   grid-template-columns: 1fr 3fr 1fr 1fr;
   grid-auto-rows: auto;
   grid-gap: 5vmin;
+  margin: 5vmin;
 }
 
 
