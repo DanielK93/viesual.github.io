@@ -439,6 +439,10 @@ max-height:35vw;
   margin: 5vmin;
 }
 
+.right{
+  text-align:right;
+}
+
 
 
 .inforow-full {
