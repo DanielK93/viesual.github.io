@@ -137,7 +137,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             cover.style.top="0";
             cover.classList.remove("move-up");
             
-        
+            document.getElementById("barba-wrapper").removeChild(_this.oldContainer);
             window.scrollTo(0, 0);
             startfadein();
         });
