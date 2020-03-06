@@ -147,7 +147,6 @@ var FadeTransition = Barba.BaseTransition.extend({
           cover.classList.add("move-up");
            
             cover.addEventListener("animationend", function(){
-              cover.style.bottom ="-100vh"
                 cover.classList.remove("move-up");
                 _this.done();
 
