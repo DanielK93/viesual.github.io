@@ -494,7 +494,9 @@ user-select: none;
   width: 54px;
 }
 
-
+.infosection{
+  margin-top:45px;
+}
 
 .stagelement {
   height: 66vh;
