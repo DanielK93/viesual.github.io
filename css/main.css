@@ -401,9 +401,9 @@ max-height:35vw;
     --Standardfontsize: 16px;
     --infofontsize: 12px;
   }
-  
 
-  
+
+
 
 }
 
@@ -420,7 +420,7 @@ max-height:35vw;
   }
 
 
-  
+
 
 }
 
@@ -430,6 +430,12 @@ max-height:35vw;
   font-family: var(--monofont);
 }
 
+
+.gridcontainer{
+  display:grid;
+  grid-template-columns: 120px, auto, 180, 180;
+  grid-template-rows: auto;
+}
 
 .inforow-full {
   display: grid;
@@ -581,7 +587,7 @@ margin: 0 0 1rem 0;
 
 
 .nolinks{
-  
+
 }
 
 
