@@ -140,8 +140,8 @@ h4 {
 }
 
 .page a::before {
-  font-family: Telegraf-Regular;
-  content: "→ ";
+  font-family: var(--variablefont);
+  content: "-> ";
 }
 
 .page a::after {
