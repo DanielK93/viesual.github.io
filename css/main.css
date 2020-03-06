@@ -180,7 +180,7 @@ ul li{
 }
 
 ul li a{
-  font-family: var(--monofont);
+  font-family: var(--variablefont);
   font-size:0.9rem;
   text-transform: uppercase;
 }
