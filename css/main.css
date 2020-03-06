@@ -437,8 +437,9 @@ max-height:35vw;
   display:grid;
   grid-template-columns: 1fr 3fr 1fr 1fr;
   grid-auto-rows: auto;
-  grid-gap: 5vmin;
-  margin: 5vmin;
+  grid-gap: 5vw;
+  margin: 5vw;
+  height:100vh;
 }
 
 .right{
