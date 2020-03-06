@@ -182,6 +182,7 @@ ul li{
 ul li a{
   font-family: var(--monofont);
   font-size:0.9rem;
+  text-transform: uppercase;
 }
 
 .section1{
@@ -427,7 +428,8 @@ max-height:35vw;
 .infotext{
   font-size: var(--infofontsize);
   color: var(--lighttext);
-  font-family: var(--monofont);
+  font-family: var(--variablefont);
+  letter-spacing: 0.1rem;
 }
 
 
