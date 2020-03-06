@@ -130,11 +130,11 @@ var FadeTransition = Barba.BaseTransition.extend({
 
     fadeIn: function() {
         var _this = this;
-       // this.oldContainer.classList.add("fade-out");
+        this.oldContainer.classList.add("fade-out");
         var cover = document.getElementById("cover");
         cover.classList.add("move-up");
-        cover.addEventListener("animationend", function(){
-            cover.classList.remove("move-up")
+        this.oldContainer.addEventListener("animationend", function(){
+            _this.oldContainer.style.display = "none"
             
             document.getElementById("barba-wrapper").removeChild(_this.oldContainer);
             window.scrollTo(0, 0);
@@ -142,11 +142,9 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
 
         function startfadein(){
-          var cover = document.getElementById("cover");
-          cover.classList.add("move-up");
-           
-            cover.addEventListener("animationend", function(){
-                cover.classList.remove("move-up");
+            _this.newContainer.classList.add("fade-in");
+            _this.newContainer.addEventListener("animationend", function(){
+                _this.newContainer.classList.remove("fade-in");
                 _this.done();
 
 
