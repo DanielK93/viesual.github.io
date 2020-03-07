@@ -69,7 +69,7 @@ html {
 :root {
   --white: #fcfcfc;
   --blacktext: rgba(0, 0, 0, .9);
-  --greytext: rgba(0, 0, 0, .75);
+  --greytext: rgba(0, 0, 0, .9);
   --linkcolor: rgba(0, 0, 0, .9);
   --whitetext: rgba(255,255,255, 0.95);
   --lighttext: rgba(0,0,0,.4);
