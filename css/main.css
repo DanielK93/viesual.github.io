@@ -92,7 +92,7 @@ html {
 }
 
 body {
-  font-family: var(--variablefont), sans-serif;
+  font-family: Telegraf-Regular, sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: var(--greytext);
@@ -118,7 +118,7 @@ h4 {
 }
 
 h1 {
-  font-family: var(--variablefont);
+
   font-size: calc(2rem + var(--scale));
   margin: 0 ;
   line-height: 1.1;
@@ -180,7 +180,6 @@ ul li{
 }
 
 ul li a{
-  font-family: var(--variablefont);
   font-size:0.9rem;
   text-transform: uppercase;
 }
@@ -225,16 +224,7 @@ p{
   background-color: red;
 }
 
-.contactlinks {
-  font-size: 1rem;
-  text-transform: none;
-  float: left;
-  margin-left: 50px;
-  text-align: right;
-  margin-top: -6px;
-  line-height: 1.2;
-  font-family: var(--monofont);
-}
+
 
 .monofont {
   font-family: var(--monofont);
@@ -242,11 +232,7 @@ p{
   line-height:1.2;
 }
 
-.copytext{
-  font-family: var(--monofont);
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
+
 
 .introsection{
   width:80%;
