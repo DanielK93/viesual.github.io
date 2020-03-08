@@ -427,6 +427,7 @@ max-height:35vw;
   grid-gap: 5vw;
   margin: 5vw;
   height:100vh;
+  background-image: url(img/ich.jpg);
 }
 
 .span2{
