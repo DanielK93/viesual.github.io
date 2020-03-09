@@ -144,7 +144,7 @@ h4 {
 }
 
 .page a:hover:before {
-  color:blue;
+  color:#f9c784;
 }
 
 .page a::after {
