@@ -188,7 +188,7 @@ ul li{
 
 .bulletlist li a::before{
   content: "● ";
-  font-size:0.8rem;
+  font-size:0.5rem;
   font-family: var(--regularfont);
   position: absolute;
   left: -28px;
