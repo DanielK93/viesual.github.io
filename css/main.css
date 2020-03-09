@@ -61,6 +61,12 @@ html {
 }
 
 @font-face {
+  font-family: "Telegraf-Regular";
+  src: url(../type/otf/Telegraf-Bold.otf);
+  font-style: normal;
+}
+
+@font-face {
   font-family: "SuisseIntlMono-Regular";
   src: url(../type/93tf/SuisseIntlMono-Regular-WebS.woff2);
   font-style: normal;
@@ -85,6 +91,8 @@ html {
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --variablefont: "93stf-v";
   --monofont: "SuisseIntlMono-Regular";
+  --boldfont: "Telegraf-Bold";
+  --regularfont: "Telegraf-Regular";
 }
 
 html {
@@ -104,6 +112,7 @@ body {
 
 a {
   color: var(--linkcolor);
+  font-family: var(--boldfont);
 }
 
 h1, h2, h3 {
@@ -417,12 +426,7 @@ max-height:35vw;
 
 }
 
-.infotext{
-  font-size: var(--infofontsize);
-  color: var(--lighttext);
-  font-family: var(--variablefont);
-  letter-spacing: 0.1rem;
-}
+
 
 
 .gridcontainer{
