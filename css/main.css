@@ -149,7 +149,7 @@ h4 {
 }
 
 .page a::after {
-  content: " ";
+
   position:absolute;
   width:100%;
   height:2px;
