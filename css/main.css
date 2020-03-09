@@ -315,8 +315,8 @@ p{
 
 .logo {
 line-height:1;
-font-size:2rem;
 width:120px;
+font-family: var(--boldfont);
 }
 
 #menutoggle {
