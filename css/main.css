@@ -140,8 +140,7 @@ h4 {
 }
 
 .page a::before {
-  font-family: var(--variablefont);
-  content: "-> ";
+  content: "● ";
 }
 
 .page a::after {
