@@ -183,11 +183,13 @@ ul li{
 
 .linklist li a::before{
   content: "→ ";
+  font-family: var(--boldfont);
 }
 
 .bulletlist li a::before{
   content: "● ";
   font-size:0.8rem;
+  font-family: var(--regularfont);
 }
 
 .section1{
