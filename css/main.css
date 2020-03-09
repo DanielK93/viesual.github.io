@@ -191,10 +191,8 @@ ul li{
   font-size:0.8rem;
   font-family: var(--regularfont);
   position: absolute;
-
-left: -28px;
-
-bottom: 6px;
+  left: -28px;
+  bottom: 6px;
 }
 
 .section1{
