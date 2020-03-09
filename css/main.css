@@ -332,8 +332,8 @@ margin: 0 auto;
 }
 
 
-.item-66 {
-  flex-basis: 60%;
+.item-75 {
+  flex-basis: 70%;
   flex-grow: 1;
   margin-bottom: 55px;
   margin: 2.5%;
@@ -481,7 +481,7 @@ user-select: none;
 }
 
 .infosection{
- 
+
 }
 
 .stagelement {
