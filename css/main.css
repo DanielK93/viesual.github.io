@@ -187,6 +187,7 @@ ul li{
 
 .bulletlist li a::before{
   content: "● ";
+  font-size:0.8rem;
 }
 
 .section1{
