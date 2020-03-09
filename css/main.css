@@ -406,8 +406,8 @@ max-height:35vw;
 @media screen and (max-width:620px) {
 
   .item-25 {
-    flex-basis: 95%;
-     max-width:95%;
+    flex-basis: 45%;
+     max-width:45%;
   }
 
   .item-50 {
