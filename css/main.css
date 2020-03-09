@@ -77,6 +77,7 @@ html {
   --bluecrayon: #2646ff;
   --offwhite: #fafafa;
   --licorice: #101011;
+  --hovercolor: #f9c784;
   --base: 6px;
   --Standardfontsize: 36px;
   --infofontsize: 12px;
@@ -144,7 +145,7 @@ h4 {
 }
 
 .page a:hover:before {
-  color:#f9c784;
+  color: var(--hovercolor);
 }
 
 .page a::after {
