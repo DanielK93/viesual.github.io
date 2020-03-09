@@ -61,7 +61,7 @@ html {
 }
 
 @font-face {
-  font-family: "Telegraf-Regular";
+  font-family: "Telegraf-Bold";
   src: url(../type/otf/Telegraf-Bold.otf);
   font-style: normal;
 }
@@ -101,7 +101,7 @@ html {
 }
 
 body {
-  font-family: Telegraf-Regular, sans-serif;
+  font-family: var(--regularfont), Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   color: var(--greytext);
