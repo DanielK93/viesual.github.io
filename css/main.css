@@ -142,7 +142,7 @@ h4 {
 
 a:hover:after {
   color: var(--hovercolor);
-  transform: translate3d(4px,0,0);
+    font-family: var(--boldfont);
 }
 
 
@@ -166,7 +166,7 @@ ul li{
 
 a:after{
   content: " →";
-  font-family: var(--boldfont);
+  
   transition: all .2s;
   position:absolute;
 }
