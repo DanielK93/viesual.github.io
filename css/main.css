@@ -171,6 +171,14 @@ a:after{
   transition: all .2s;
 }
 
+a {
+  transiton: all .2s;
+}
+
+a:hover{
+  color: var(--hovercolor);
+}
+
 .bulletlist li a::before{
   content: "● ";
   font-size:0.5rem;
