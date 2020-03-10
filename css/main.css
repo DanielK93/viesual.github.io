@@ -117,7 +117,7 @@ a {
 
 
 h1 {
-  font-size: calc(2rem + var(--scale));
+  font-size: calc(3rem + var(--scale));
   margin: 0 ;
   line-height: 1.1;
 }
