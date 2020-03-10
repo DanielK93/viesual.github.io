@@ -142,7 +142,7 @@ h4 {
 
 a:hover:after {
   color: var(--hovercolor);
-  transform: translate3d(10px,0,0);
+  transform: translate3d(4px,0,0);
 }
 
 
