@@ -160,8 +160,8 @@ transform: translate3d(5px,0,0) rotate(-360deg);
 
 ul li{
 
-  margin-bottom: 1rem;
-  line-height: 0.6;
+  margin-bottom: 0.5rem;
+  line-height: 1;
 }
 
 a:after{
