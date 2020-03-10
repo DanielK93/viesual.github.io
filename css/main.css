@@ -48,9 +48,11 @@ html {
   text-shadow: none;
 }
 
+
+
 @font-face {
   font-family: "93stf-v";
-  src: url(../type/93tf/93-Custom-Regular.woff2);
+  src: url(../type/93tf/93stf-variable.woff2);
   font-style: normal;
 }
 
