@@ -142,13 +142,10 @@ h4 {
 
 
 
-.page a:hover:before {
+a:hover:after {
   color: var(--hovercolor);
 }
 
-.stagelink a::after {
-  background-color:var(--whitetext);
-}
 
 
 
