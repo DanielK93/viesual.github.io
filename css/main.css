@@ -167,7 +167,7 @@ ul li{
 a:after{
   content: " →";
   transition: all .5s;
-  position:absolute;
+  
 }
 
 a {
