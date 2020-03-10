@@ -167,13 +167,13 @@ ul li{
 
 a:after{
   content: " →";
-  transition: all .25s;
+  transition: all .2s;
   position: absolute;
   transform: translate3d(5px,0,0);
 }
 
 a {
-  transition: all .1s;
+  transition: all .2s;
 }
 
 a:hover{
