@@ -191,6 +191,14 @@ a:hover{
   bottom: 6px;
 }
 
+a::before{
+  content: "● ";
+  font-size:1rem;
+  font-family: var(--regularfont);
+
+}
+
+
 .sectionintro{
   height:100vh;
 }
