@@ -143,7 +143,7 @@ h4 {
 
 a:hover:after {
   color: var(--hovercolor);
-transform: translate3d(5px,0,0) rotate(-360deg);
+transform: translate3d(5px,0,0) rotate(-45deg);
 }
 
 
@@ -167,7 +167,7 @@ ul li{
 
 a:after{
   content: " →";
-  transition: all .5s;
+  transition: all .25s;
   position: absolute;
   transform: translate3d(5px,0,0);
 }
