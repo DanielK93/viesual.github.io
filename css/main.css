@@ -326,7 +326,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   scroll-snap-type: y proximity;
-  background-color: var(--offwhite);
   width: 95%;
 margin: 0 auto;
 }
