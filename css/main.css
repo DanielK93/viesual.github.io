@@ -181,7 +181,7 @@ ul li{
   line-height: 1.4;
 }
 
-.linklist li a::before{
+a::before{
   content: "→ ";
   font-family: var(--boldfont);
 }
