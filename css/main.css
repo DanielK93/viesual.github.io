@@ -172,7 +172,7 @@ ul li{
 }
 
 a:after{
-  content: "→ ";
+  content: " →";
   font-family: var(--boldfont);
 }
 
