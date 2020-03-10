@@ -168,6 +168,7 @@ a:after{
   content: " →";
   font-family: var(--boldfont);
   transition: all .2s;
+  position:absolute;
 }
 
 a {
