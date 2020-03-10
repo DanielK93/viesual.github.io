@@ -73,12 +73,12 @@ slider.addEventListener('mousemove', e => {
 document.onclick = function(){
 
     if (open == true){
-        menutoggle.innerHTML = "menu";
+        menutoggle.innerHTML = "menu →";
         mobilemenu.style.transform = "translate3d(0,-100%,0)"
         open = !open;
     } else if (event.target.id =="menutoggle" && open == false){
         console.log("1");
-        menutoggle.innerHTML = "close";
+        menutoggle.innerHTML = "close ✕";
         mobilemenu.style.transform = "translate3d(0,0,0)"
         open = !open;
     }
