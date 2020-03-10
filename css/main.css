@@ -263,7 +263,9 @@ p{
   height:100%;
 }
 
-
+.white{
+  color:var(--whitetext);
+}
 .menulist {
   display: inline;
   float: left;
