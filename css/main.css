@@ -144,7 +144,7 @@ h4 {
 
 
 a:hover:after {
-  color: var(--hovercolor);
+
 transform: translate3d(5px,0,0) rotate(45deg);
 }
 
@@ -179,7 +179,7 @@ a {
 }
 
 a:hover{
-  color: var(--hovercolor);
+ 
 }
 
 .bulletlist li a::before{
