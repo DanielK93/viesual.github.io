@@ -181,7 +181,7 @@ a {
 }
 
 a:hover{
- 
+
 }
 
 .bulletlist li a::before{
@@ -391,6 +391,7 @@ margin-right: 2.55%;
 max-height:35vw;
 }
 
+/*
 @media screen and (max-width:980px) {
 
   .item-25 {
@@ -425,7 +426,7 @@ max-height:35vw;
 
 }
 
-
+*/
 
 
 .gridcontainer{
@@ -654,17 +655,4 @@ to{
   to {
     opacity: 1;
   }
-}
-
-
-@media screen and (min-width:621px) {
-  #mobilemenu {
-    display: none;
-  }
-}
-
-@media screen and (max-width:620px) {
-
-
-
 }
