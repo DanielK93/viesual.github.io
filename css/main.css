@@ -321,7 +321,7 @@ p{
 .logo {
 line-height:1;
 width:120px;
-font-family: var(--boldfont);
+font-size:1.3rem;
 }
 
 #menutoggle {
