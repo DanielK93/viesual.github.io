@@ -274,10 +274,8 @@ p{
 
 .fixedheader{
   position:fixed;
-  margin-top:5vh;
-  left:0;
-  top:0;
-  width:100%;
+  margin-top:5vh 5vw 0 5vw;
+  width:90vw;
 }
 
 
