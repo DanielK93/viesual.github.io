@@ -310,20 +310,19 @@ margin: 0 auto;
 
 
 .item-75 {
-  flex-basis: 70%;
+  flex-basis: 56.5vw;
   flex-grow: 1;
-  margin-bottom: 55px;
-  margin: 2.5%;
-  max-width:70%;
+  margin: 2.5vw;
+  max-width:56.5vw;
 }
 
 
 
 .item-33 {
-  flex-basis: 30%;
+  flex-basis: 28vw;
   scroll-snap-align: center;
-  margin: 2.5%;
-  max-width:30%;
+  margin: 2.5vw;
+  max-width:28vw;
 
 }
 
@@ -332,18 +331,18 @@ margin: 0 auto;
 }
 
 .item-50 {
-  flex-basis: 45%;
+  flex-basis: 42.45vw;
   scroll-snap-align: center;
-  margin: 2.5%;
+  margin: 2.5vw;
   flex-grow: 1;
-  max-width:45%;
+  max-width:42.45vw;
 }
 
 .item-25 {
-  flex-basis: 18.74vw;
+  flex-basis: 18.7vw;
   margin: 2.5vw;
   flex-grow: 1;
-  max-width:18.74vw;
+  max-width:18.7vw;
 }
 
 
