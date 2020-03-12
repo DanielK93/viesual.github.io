@@ -272,7 +272,13 @@ p{
 
 
 
-
+.fixedheader{
+  position:fixed;
+  margin-top:5vh;
+  left:0;
+  top:0;
+  width:100%;
+}
 
 
 .logo {
@@ -579,13 +585,7 @@ margin: 0 0 1rem 0;
 
 }
 
-.fixedheader{
-  position:fixed;
-  margin-top:5vh;
-  left:0;
-  top:0;
-  width:100%;
-}
+
 
 .move-up{
   animation: move-up 0.3s forwards;
