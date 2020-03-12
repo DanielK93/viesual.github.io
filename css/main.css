@@ -294,7 +294,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   scroll-snap-type: y proximity;
-  width: 95%;
+  width: 95vw;
 margin: 0 auto;
 }
 
@@ -340,11 +340,10 @@ margin: 0 auto;
 }
 
 .item-25 {
-  flex-basis: 20%;
-  scroll-snap-align: center;
-  margin: 2.5%;
+  flex-basis: 18.74vw;
+  margin: 2.5vw;
   flex-grow: 1;
-  max-width:20%;
+  max-width:18.74vw;
 }
 
 
