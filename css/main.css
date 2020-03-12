@@ -341,6 +341,16 @@ a {
 margin: 0 auto;
 }
 
+.flexnest{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-space-between;
+}
+
+.flexnest > div{
+  flex-grow:1;
+}
+
 
 .item-75 {
   flex-basis: 70%;
