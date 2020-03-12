@@ -202,36 +202,13 @@ a:hover{
 p{
   margin-bottom:1rem;
 }
-.logobar{
-  width:90px;
-  float:left;
 
-}
 
-#navbar {
-  transition: all 0.2s ease-in-out;
-  transform: translate3d(0,-100%,0);
-}
 
-.headercontainer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
-  width: 90%;
-  height: 20px;
-  padding: 15px 5% 24px;
-  background-color: var(--offwhite);
-}
 
-.leftspacer {
-  flex-shrink: 0;
-  flex-grow: 0;
-  flex-basis: 300px;
-  width: 300px;
-  height: 100%;
-  background-color: red;
-}
+
+
+
 
 
 
@@ -286,37 +263,17 @@ p{
   float: left;
 }
 
-#mobilemenu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: table;
-  height: 100%;
-  width: 94%;
-  padding: 0 3%;
-  z-index: 2;
-  transform: translate3d(0, -100%, 0);
-  transition: all 0.5s ease 0s;
-  background-color: white;
-}
+
 
 .mmc {
   display: table-cell;
   vertical-align: middle;
 }
 
-.mobilemenulist li {
-  font-size: 3rem;
-  margin-bottom: 54px;
-  text-transform: uppercase;
-}
 
-.mobilecontactlinks a {
-  font-size: 1rem;
-  margin-top: 12px;
-  float: left;
-  clear: both;
-}
+
+
+
 
 .logo {
 line-height:1;
