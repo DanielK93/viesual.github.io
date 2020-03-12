@@ -299,7 +299,7 @@ a {
   flex-wrap: wrap;
   scroll-snap-type: y proximity;
   width: 95vw;
-margin: 0 auto;
+margin: 0 2.5vw;
 }
 
 .flexnest{
