@@ -312,7 +312,7 @@ margin: 0 auto;
 .item-75 {
   flex-basis: 56.5vw;
   flex-grow: 1;
-  margin: 2.5vw;
+  margin: 2.5vh 2.5vw;
   max-width:56.5vw;
 }
 
@@ -320,8 +320,8 @@ margin: 0 auto;
 
 .item-33 {
   flex-basis: 28vw;
-  scroll-snap-align: center;
-  margin: 2.5vw;
+
+  margin: 2.5vh 2.5vw;
   max-width:28vw;
 
 }
@@ -332,15 +332,15 @@ margin: 0 auto;
 
 .item-50 {
   flex-basis: 42.45vw;
-  scroll-snap-align: center;
-  margin: 2.5vw;
+
+    margin: 2.5vh 2.5vw;
   flex-grow: 1;
   max-width:42.45vw;
 }
 
 .item-25 {
   flex-basis: 18.7vw;
-  margin: 2.5vw;
+    margin: 2.5vh 2.5vw;
   flex-grow: 1;
   max-width:18.7vw;
 }
