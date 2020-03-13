@@ -301,9 +301,6 @@ color:var(--whitetext);
   color:var(--whitetext);
 }
 
-#menutoggle{
-  color: var(--whitetext);
-}
 
 a {
   text-decoration: none;
