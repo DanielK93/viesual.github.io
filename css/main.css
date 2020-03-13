@@ -280,6 +280,7 @@ p{
   position:fixed;
   margin:2.5vh 5vw 0 5vw;
   width:90vw;
+  background-color:black;
 }
 
 .item-50 > img{
