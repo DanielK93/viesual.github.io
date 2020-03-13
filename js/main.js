@@ -73,12 +73,12 @@ slider.addEventListener('mousemove', e => {
 document.onclick = function(){
 
     if (open == true){
-        menutoggle.innerHTML = "menu→";
+        menutoggle.innerHTML = "menu →";
      
         open = !open;
     } else if (open == false){
         console.log("1");
-        menutoggle.innerHTML = "close✕";
+        menutoggle.innerHTML = "close ✕";
   
         open = !open;
     }
