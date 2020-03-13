@@ -153,7 +153,7 @@ transform: rotate(45deg);
 
 
 .sep{
-  width:100vw;
+  width:100%;
   height:3px;
   background-color:var(--blacktext);
 }
@@ -311,8 +311,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   scroll-snap-type: y proximity;
-  width: 95vw;
-margin: 0 2.5vw;
+  width: 95%;
+margin: 0 2.5%;
 }
 
 .flexnest{
@@ -327,10 +327,10 @@ margin: 0 2.5vw;
 
 
 .item-75 {
-  flex-basis: 56.5vw;
+  flex-basis: 60%;
   flex-grow: 1;
-  margin: 2.5vh 2.5vw;
-  max-width:56.5vw;
+  margin: 2.5vh 2.5%;
+  max-width:60%;
 }
 
 
@@ -348,18 +348,18 @@ margin: 0 2.5vw;
 }
 
 .item-50 {
-  flex-basis: 42.45vw;
+  flex-basis: 45%;
 
-    margin: 2.5vh 2.5vw;
+    margin: 2.5vh 2.5%;
   flex-grow: 1;
-  max-width:42.45vw;
+  max-width:45%;
 }
 
 .item-25 {
-  flex-basis: 18.7vw;
-    margin: 2.5vh 2.5vw;
+  flex-basis: 20%;
+    margin: 2.5vh 2.5%;
   flex-grow: 1;
-  max-width:18.7vw;
+  max-width:20%;
 }
 
 
