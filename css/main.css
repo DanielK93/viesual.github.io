@@ -297,8 +297,8 @@ color:var(--whitetext);
 }
 
 #menutoggle {
-  float: right;
   color:var(--whitetext);
+  text-align:right;
 }
 
 
