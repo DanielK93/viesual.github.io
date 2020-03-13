@@ -278,6 +278,9 @@ p{
   width:90vw;
 }
 
+.item-50 > img{
+  max-height:50vh;
+}
 
 .logo {
 line-height:1;
