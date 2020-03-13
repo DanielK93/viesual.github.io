@@ -76,7 +76,7 @@ document.onclick = function(){
         menutoggle.innerHTML = "menu →";
         mobilemenu.style.transform = "translate3d(0,-100%,0)"
         open = !open;
-    } else if (event.target.id =="menutoggle" && open == false){
+    } else if (open == false){
         console.log("1");
         menutoggle.innerHTML = "close ✕";
         mobilemenu.style.transform = "translate3d(0,0,0)"
