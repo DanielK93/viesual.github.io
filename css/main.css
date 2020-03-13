@@ -151,7 +151,11 @@ transform: rotate(45deg);
 }
 
 
-
+.sep{
+  width:100vw;
+  height:3px;
+  background-color:var(--blacktext);
+}
 
 
 .wrap {
