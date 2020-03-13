@@ -291,11 +291,14 @@ p{
 line-height:1;
 width:120px;
 font-size:1rem;
+color:var(--whitetext);
 }
 
 #menutoggle {
   float: right;
+  color:var(--whitetext);
 }
+
 
 a {
   text-decoration: none;
