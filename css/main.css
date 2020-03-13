@@ -111,6 +111,7 @@ body {
   height: 100%;
   background-color: var(--offwhite);
   font-feature-settings: "dlig"0, "numr"0, "dnom"0, "tnum", "case", "zero", "frac", "sups"0, "subs"0, "cpsp", "salt"0, "ss01"0, "ss02"0, "ss03"0, "cv01"0, "cv02"0, "cv03"0, "cv04"0, "cv05", "cv06", "cv07"0, "cv08"0, "cv09"0, "cv10", "cv11"0, "calt", "liga", "kern";
+  text-transform: uppercase;
 }
 
 a {
