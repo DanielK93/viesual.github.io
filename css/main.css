@@ -209,7 +209,8 @@ p{
 
 
 .stage{
-  font-size: 18vw;
+  font-size: 21vw;
+  border-bottom: solid 3px black;
 }
 
 
@@ -587,7 +588,7 @@ margin: 0 0 1rem 0;
 }
 
 .sectionintro{
-  margin-top:100px;
+  margin-top:60px;
 }
 
 
