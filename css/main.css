@@ -159,6 +159,10 @@ transform: rotate(45deg);
   margin-bottom: 30px;
 }
 
+.bold{
+  font-variation-settings: "wgth" 600;
+}
+
 
 .wrap {
   display: flex;
