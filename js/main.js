@@ -70,7 +70,7 @@ slider.addEventListener('mousemove', e => {
 
 
 
-document.onclick = function(){
+menutoggle.onclick = function(){
 
     if (open == true){
         menutoggle.innerHTML = "menu →";
