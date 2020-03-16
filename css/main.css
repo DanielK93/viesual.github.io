@@ -308,6 +308,7 @@ p{
 width:120px;
 font-size:1rem;
 color:var(--whitetext);
+text-align: center;
 }
 
 #menutoggle {
