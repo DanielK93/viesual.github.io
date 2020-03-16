@@ -297,7 +297,7 @@ p{
   left:0;
   padding: 8px 5%;
   width: 90%;
-  display: table;
+  align-items: center;
 }
 
 .item-50 > img{
@@ -311,8 +311,6 @@ text-align: center;
 }
 
 #menutoggle {
-  display: table-cell; 
-  vertical-align: middle;
   text-align:right;
 }
 
