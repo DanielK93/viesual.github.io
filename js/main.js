@@ -34,17 +34,14 @@ console.log(neuerwert);
 logo.style.flexBasis = neuerwert+"%";
 }
 
-function bigger(){
-  logo.style.maxWidth = "45%";
-  already = false;
-}
-
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
   if(latestKnownScrollY > 0 && latestKnownScrollY <= 130){
       requestAnimationFrame(smaller);
-  } 
+  } else if (latestKnownScrollY > 130){
+    logo.style.flexBasis = "10%";
+  }
 });
 
 /*
