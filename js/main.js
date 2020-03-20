@@ -20,8 +20,8 @@ var neuerwert;
 var eingabewert;
 var eingabemin = 1;
 var eingabemax = 100;
-var neuemin = 100;
-var neuemax = 15;
+var neuemin = 45;
+var neuemax = 12;
 
 
 var latestKnownScrollY = 0;
@@ -31,7 +31,7 @@ function smaller(){
 
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
 console.log(neuerwert);
-logo.style.width = neuerwert+"%";
+logo.style.flexBasis = neuerwert+"%";
 }
 
 function bigger(){
