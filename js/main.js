@@ -28,7 +28,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY >= 30 && already == false){
+  if(latestKnownScrollY >= 60 && already == false){
       requestAnimationFrame(smaller);
   } else if (latestKnownScrollY < 30){
     requestAnimationFrame(bigger);
