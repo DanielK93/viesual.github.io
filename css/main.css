@@ -308,6 +308,7 @@ p{
 
 .logo {
 text-align: center;
+max-width:300px;
 }
 
 #menutoggle {
