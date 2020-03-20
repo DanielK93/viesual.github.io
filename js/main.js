@@ -26,7 +26,6 @@ var neuemax = 15;
 
 var latestKnownScrollY = 0;
 
-Y = (X-A)/(B-A) * (D-C) + C
 
 function smaller(){
 logo.style.flexBasis = "200px";
