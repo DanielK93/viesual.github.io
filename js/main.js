@@ -12,15 +12,20 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 var h = window.innerHeight;
-var yposs = window.scrollY;
+var already = false;
 
 var latestKnownScrollY = 0;
 
 function onScroll() {
   latestKnownScrollY = window.scrollY;
-  if (latestKnownScrollY >= 30){
+  if (latestKnownScrollY >= 30 && already == false){
     logo.style.transform = "scale(0.5)";
+    already = true;
+  } else if(latestKnownScrollY < 30){
+    logo.style.transform = "scale(1)";
+    already = false;
   }
+
 }
 
 
