@@ -15,6 +15,7 @@ var h = window.innerHeight;
 var already = false;
 
 
+var eeex;
 
 var neuerwert;
 var eingabewert;
@@ -41,9 +42,11 @@ window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
   if(latestKnownScrollY > 0 && latestKnownScrollY <= 130){
-      requestAnimationFrame(smaller(false));
+    eeex = false;
+      requestAnimationFrame(smaller(eeex));
   } else if (latestKnownScrollY > 130){
-    requestAnimationFrame(smaller(true));
+    eeex = true;
+    requestAnimationFrame(smaller(eeex));
   }
 });
 
