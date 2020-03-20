@@ -14,7 +14,7 @@ var newpos = 0;
 var h = window.innerHeight;
 var yposs = window.scrollY;
 
-if (yposs >= 100){
+if (yposs >= 20){
   logo.style.transform = "scale(0.5)";
 }
 
