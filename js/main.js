@@ -19,7 +19,7 @@ var latestKnownScrollY = 0;
 function onScroll() {
   latestKnownScrollY = window.scrollY;
   if (latestKnownScrollY >= 30 && already == false){
-    logo.style.transform = "scale(0.5)";
+    logo.setAttribute("style", "transform: scale(0.5");
     already = true;
   } else if(latestKnownScrollY < 30){
     logo.style.transform = "scale(1)";
