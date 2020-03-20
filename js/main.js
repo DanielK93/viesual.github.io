@@ -28,7 +28,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY >= 80 && already == false){
+  if(latestKnownScrollY >= 50 && already == false){
       requestAnimationFrame(smaller);
   } 
 });
