@@ -27,20 +27,23 @@ var neuemax = 10;
 var latestKnownScrollY = 0;
 
 
-function smaller(){
-
+function smaller(exceed){
+var exceedv = exceed; 
+if (exceedv == false){
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
-console.log(neuerwert);
 logo.style.flexBasis = neuerwert+"%";
+} else if (exceedv == true){
+  logo.style.flexBasis = "10%";
+}
 }
 
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
   if(latestKnownScrollY > 0 && latestKnownScrollY <= 130){
-      requestAnimationFrame(smaller);
+      requestAnimationFrame(smaller(false));
   } else if (latestKnownScrollY > 130){
-    logo.style.flexBasis = "10%";
+    requestAnimationFrame(smaller(true));
   }
 });
 
