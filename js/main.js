@@ -18,10 +18,10 @@ var already = false;
 
 var neuerwert;
 var eingabewert;
-var eingabemin = 30;
+var eingabemin = 1;
 var eingabemax = 100;
-var neuemin = 15;
-var neuemax = 100;
+var neuemin = 100;
+var neuemax = 15;
 
 
 var latestKnownScrollY = 0;
@@ -42,7 +42,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY >= 30 && already == false){
+  if(latestKnownScrollY > 0 && already == false){
       requestAnimationFrame(smaller);
   } 
 });
