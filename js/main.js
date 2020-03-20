@@ -28,9 +28,10 @@ var latestKnownScrollY = 0;
 
 
 function smaller(){
-logo.style.flexBasis = "200px";
+
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
 console.log(neuerwert);
+logo.style.flexBasis = neuerwert+"%";
 }
 
 function bigger(){
@@ -41,7 +42,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY > 0 && already == false){
+  if(latestKnownScrollY > 0 && latestKnownScrollY <= 100){
       requestAnimationFrame(smaller);
   } 
 });
