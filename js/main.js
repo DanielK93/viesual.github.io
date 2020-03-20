@@ -26,11 +26,11 @@ var neuemax = 15;
 
 var latestKnownScrollY = 0;
 
-
+Y = (X-A)/(B-A) * (D-C) + C
 
 function smaller(){
 logo.style.flexBasis = "200px";
-neuerwert = neuemin + (((latestKnownScrollY - eingabemin)*(neuemax-neuemin))/(eingabemax-eingabemin))
+neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + eingabemin;
 console.log(neuerwert);
 }
 
