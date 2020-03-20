@@ -3,6 +3,7 @@ var mobilemenu = document.getElementById("mobilemenu");
 var navbar = document.getElementById("navbar");
 var open = false;
 history.scrollRestoration = 'manual';
+var logo = document.getElementById("logosvg");
 
 
 var prevScroll  = 0;
@@ -11,32 +12,11 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 var h = window.innerHeight;
+var yposs = window.scrollY;
 
-
-var navhideshow = setInterval(function() {
-  var currentScroll = window.pageYOffset;
-  if(currentScroll > h/2){
-    navbar.style.transform = "translate3d(0,0,0)";
-  }
-  if(currentScroll < h/2){
-    navbar.style.transform = "translate3d(0,-100%,0)";
-  }
-}, 200);
-/*
-var navhideshow = setInterval(function() {
-  var currentScroll = window.pageYOffset;
-
-  if (currentScroll - prevScroll < -threshold) {
-    navbar.style.transform = "translate3d(0,0,0)";
-
-  } else if (currentScroll - prevScroll > threshold){
-    navbar.style.transform = "translate3d(0,-100%,0)";
-
-  }
-prevScroll = currentScroll;
-}, 150);
-
-*/
+if (yposs >= 100){
+  logo.style.transform = "scale(0.5)";
+}
 
 var x,y,top,left,down;
 
