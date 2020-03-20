@@ -326,6 +326,7 @@ a {
   scroll-snap-type: y proximity;
   width: 95%;
 margin: 0 2.5%;
+justify-content: space-around;
 }
 
 .flexnest{
