@@ -15,7 +15,6 @@ var h = window.innerHeight;
 var already = false;
 
 
-var eeex;
 
 var neuerwert;
 var eingabewert;
@@ -28,25 +27,22 @@ var neuemax = 10;
 var latestKnownScrollY = 0;
 
 
-function smaller(exceed){
-var exceedv = exceed; 
-if (exceedv == false){
+function smaller(){
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
 logo.style.flexBasis = neuerwert+"%";
-} else if (exceedv == true){
+}
+
+function fixed(){
   logo.style.flexBasis = "10%";
-}
-}
+  }
 
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
   if(latestKnownScrollY > 0 && latestKnownScrollY <= 130){
-    eeex = false;
-      requestAnimationFrame(smaller(eeex));
+      requestAnimationFrame(smaller);
   } else if (latestKnownScrollY > 130){
-    eeex = true;
-    requestAnimationFrame(smaller(eeex));
+    requestAnimationFrame(fixed);
   }
 });
 
