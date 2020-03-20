@@ -31,7 +31,7 @@ function smaller(){
 
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
 console.log(neuerwert);
-logo.style.flexBasis = neuerwert+"%";
+logo.style.width = neuerwert+"%";
 }
 
 function bigger(){
