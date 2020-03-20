@@ -14,12 +14,24 @@ var newpos = 0;
 var h = window.innerHeight;
 var already = false;
 
+
+
+var neuerwert;
+var eingabewert;
+var eingabemin = 30;
+var eingabemax = 100;
+var neuemin = 15;
+var neuemax = 100;
+
+
 var latestKnownScrollY = 0;
 
-var slope = (15 - 100) / (100 - 50)
+
 
 function smaller(){
 logo.style.flexBasis = "200px";
+neuerwert = neuemin + (((latestKnownScrollY - eingabemin)*(neuemax-neuemin))/(eingabemax-eingabemin))
+console.log(neuerwert);
 }
 
 function bigger(){
@@ -30,7 +42,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY >= 50 && already == false){
+  if(latestKnownScrollY >= 30 && already == false){
       requestAnimationFrame(smaller);
   } 
 });
