@@ -19,9 +19,9 @@ var already = false;
 var neuerwert;
 var eingabewert;
 var eingabemin = 1;
-var eingabemax = 100;
+var eingabemax = 130;
 var neuemin = 45;
-var neuemax = 12;
+var neuemax = 10;
 
 
 var latestKnownScrollY = 0;
@@ -42,7 +42,7 @@ function bigger(){
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
-  if(latestKnownScrollY > 0 && latestKnownScrollY <= 100){
+  if(latestKnownScrollY > 0 && latestKnownScrollY <= 130){
       requestAnimationFrame(smaller);
   } 
 });

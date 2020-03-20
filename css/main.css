@@ -621,6 +621,10 @@ margin: 0 0 1rem 0;
 
 }
 
+.nomtop{
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 
 .move-up{
