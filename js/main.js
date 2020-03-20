@@ -16,19 +16,17 @@ var already = false;
 
 var latestKnownScrollY = 0;
 
-function onScroll() {
-  latestKnownScrollY = window.scrollY;
-  if (latestKnownScrollY >= 30 && already == false){
-    console.log("fire");
-    logo.setAttribute("transform", "scale(0.5)");
-    already = true;
-  } else if(latestKnownScrollY < 30){
-    logo.style.transform = "scale(1)";
-    already = false;
-  }
-
+function writeLayout(){
+  logo.setAttribute("transform", "scale(0.5)");
 }
 
+window.addEventListener('scroll', ()=> {
+  latestKnownScrollY = window.scrollY;
+
+  if(latestKnownScrollY >= 30 && already == false){
+      requestAnimationFrame(writeLayout);
+  }
+});
 
 /*
 
