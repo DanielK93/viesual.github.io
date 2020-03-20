@@ -12,6 +12,9 @@ var mouseclicked = false;
 var lastpos = 0;
 var newpos = 0;
 var h = window.innerHeight;
+
+
+/*
 var already = false;
 
 
