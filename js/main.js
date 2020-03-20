@@ -29,7 +29,7 @@ var latestKnownScrollY = 0;
 
 function smaller(){
 logo.style.flexBasis = "200px";
-neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + eingabemin;
+neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
 console.log(neuerwert);
 }
 
