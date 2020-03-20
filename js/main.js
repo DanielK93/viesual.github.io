@@ -17,8 +17,7 @@ var already = false;
 var latestKnownScrollY = 0;
 
 function smaller(){
-  logo.setAttribute("transform", "scale(0.5)");
-  already = true;
+logo.style.maxWidth = "20%";
 }
 
 function bigger(){

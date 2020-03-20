@@ -359,7 +359,7 @@ margin: 0 2.5%;
 .item-17{
   flex-basis:17%;
   margin: 2.5vh 2.5%;
-  max-width:17%;
+  flex-grow:1;
 }
 
 
