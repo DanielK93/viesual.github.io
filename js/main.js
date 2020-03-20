@@ -14,12 +14,17 @@ var newpos = 0;
 var h = window.innerHeight;
 var yposs = window.scrollY;
 
-window.onscroll = function(){
+var latestKnownScrollY = 0;
 
-if (yposs >= 30){
-  logo.style.transform = "scale(0.5)";
+function onScroll() {
+  latestKnownScrollY = window.scrollY;
+  if (latestKnownScrollY >= 30){
+    logo.style.transform = "scale(0.5)";
+  }
 }
-}
+
+
+
 
 var x,y,top,left,down;
 
