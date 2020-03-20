@@ -19,7 +19,7 @@ var latestKnownScrollY = 0;
 var slope = (15 - 100) / (100 - 50)
 
 function smaller(){
-logo.style.flexBasis = "200px" - latestKnownScrollY;
+logo.style.flexBasis = "200px";
 }
 
 function bigger(){
