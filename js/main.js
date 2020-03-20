@@ -30,7 +30,7 @@ function onScroll() {
 }
 
 
-
+/*
 
 var x,y,top,left,down;
 
@@ -62,7 +62,7 @@ slider.addEventListener('mousemove', e => {
 }
 });
 
-
+*/
 
 menutoggle.onclick = function(){
 
