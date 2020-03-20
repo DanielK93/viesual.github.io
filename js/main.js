@@ -16,15 +16,23 @@ var already = false;
 
 var latestKnownScrollY = 0;
 
-function writeLayout(){
+function smaller(){
   logo.setAttribute("transform", "scale(0.5)");
+  already = true;
+}
+
+function bigger(){
+  logo.setAttribute("transform", "scale(1)");
+  already = false;
 }
 
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
 
   if(latestKnownScrollY >= 30 && already == false){
-      requestAnimationFrame(writeLayout);
+      requestAnimationFrame(smaller);
+  } else if (latestKnownScrollY < 30){
+    requestAnimationFrame(bigger);
   }
 });
 

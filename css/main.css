@@ -212,7 +212,9 @@ a:hover{
 }
 
 
-
+#logosvg{
+  transition: all .2s;
+}
 
 
 p{
