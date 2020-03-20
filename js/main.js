@@ -30,9 +30,7 @@ window.addEventListener('scroll', ()=> {
 
   if(latestKnownScrollY >= 60 && already == false){
       requestAnimationFrame(smaller);
-  } else if (latestKnownScrollY < 30){
-    requestAnimationFrame(bigger);
-  }
+  } 
 });
 
 /*
