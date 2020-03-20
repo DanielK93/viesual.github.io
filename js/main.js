@@ -21,7 +21,7 @@ logo.style.maxWidth = "15%";
 }
 
 function bigger(){
-  logo.style.maxWidth = "50%";
+  logo.style.maxWidth = "45%";
   already = false;
 }
 
