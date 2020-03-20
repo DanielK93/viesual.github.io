@@ -17,7 +17,7 @@ var already = false;
 var latestKnownScrollY = 0;
 
 function smaller(){
-logo.style.maxWidth = "15%";
+logo.style.maxWidth = "10%";
 }
 
 function bigger(){
