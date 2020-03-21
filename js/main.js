@@ -1,4 +1,4 @@
-var menutoggle = document.getElementById("menutoggle");
+var menutoggle = document.getElementById("menu");
 var mobilemenu = document.getElementById("mobilemenu");
 var navbar = document.getElementById("navbar");
 var open = false;
@@ -86,12 +86,12 @@ slider.addEventListener('mousemove', e => {
 menutoggle.onclick = function(){
 
     if (open == true){
-        menutoggle.innerHTML = "menu →";
+        menutoggle.innerHTML = "menu";
      
         open = !open;
     } else if (open == false){
         console.log("1");
-        menutoggle.innerHTML = "close ✕";
+        menutoggle.innerHTML = "close";
   
         open = !open;
     }
