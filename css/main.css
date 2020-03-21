@@ -484,14 +484,10 @@ user-select: none;
 -ms-user-select: none;
 }
 
-#menu {
-  font-size: 1.4rem;
-  position: fixed;
-  z-index: 10;
-  top: 20px;
-  right: 4%;
-  height: 35px;
-  width: 54px;
+.menu{
+  padding: 10px;
+  background-color:white;
+  border-radius: 4px;
 }
 
 .infosection{
