@@ -217,6 +217,13 @@ a:hover{
   min-width:120px;
 }
 
+button{
+  border:none;
+  font-family: inherit;
+  font-size: inherit;
+  padding:4px 8px;
+  border-radius: 5px;
+}
 
 p{
   margin-bottom:1rem;
