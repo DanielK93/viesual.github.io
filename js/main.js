@@ -14,7 +14,7 @@ var newpos = 0;
 var h = window.innerHeight;
 
 
-/*
+
 var already = false;
 
 
