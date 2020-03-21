@@ -32,11 +32,11 @@ var latestKnownScrollY = 0;
 
 function smaller(){
 neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax-neuemin) + neuemin;
-logo.style.width = neuerwert+"%";
+logo.style.flexBasis = neuerwert+"%";
 }
 
 function fixed(){
-  logo.style.width = "10%";
+  logo.style.flexBasis = "10%";
   }
 
 window.addEventListener('scroll', ()=> {
