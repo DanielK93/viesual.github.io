@@ -213,8 +213,11 @@ a:hover{
 
 
 #logosvg{
- 
-  min-width:120px;
+ position: fixed;
+ top:20px;
+ width:45%;
+ margin: 0 auto;
+min-width:120px;
 }
 
 
