@@ -214,7 +214,7 @@ a:hover{
 
 #logosvg{
  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  min-width:120px;
+width:280px;
 }
 
 button{
