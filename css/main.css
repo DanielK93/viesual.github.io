@@ -308,6 +308,7 @@ p{
   left:0;
   padding: 8px 0;
   align-items: center;
+  background-color: var(--offwhite);
 }
 
 .item-50 > img{
