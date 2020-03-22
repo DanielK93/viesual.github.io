@@ -214,7 +214,14 @@ a:hover{
 
 #logosvg{
  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
-width:280px;
+}
+
+.logosize-b{
+  width:420px
+}
+
+.logosize-s{
+  width:210px;
 }
 
 button{

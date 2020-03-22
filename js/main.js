@@ -37,15 +37,13 @@ neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax
 }
 
 function fixed(){
-  logo.style.flexBasis = "10%";
+  logo.classList.remove("logosize-b");
+  logo.classList.add("logosize-s");
   }
 
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
-
-  if(latestKnownScrollY > 0 && latestKnownScrollY <= 170){
-      requestAnimationFrame(smaller);
-  } else if (latestKnownScrollY > 170){
+   if (latestKnownScrollY > 170){
     requestAnimationFrame(fixed);
   }
 });
