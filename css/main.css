@@ -211,7 +211,16 @@ a:hover{
   bottom: 6px;
 }
 
+.date{
+  width:45%;
+  float:left;
+}
 
+.tags{
+  width:45%;
+  float:right;
+  text-align:right;
+}
 #logosvg{
  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
