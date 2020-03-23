@@ -501,6 +501,32 @@ max-height:35vw;
   font-size: 20px;
 }
 
+.teasergrid{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+}
+
+.teaserimg{
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.teaserheadline{
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.teasertags{
+  grid-area: 3 / 1 / 4 / 2; 
+}
+
+.teaserbutton{
+  grid-area: 3 / 2 / 4 / 3;
+}
+
 img {
   width: 100%;
   object-fit: cover;
