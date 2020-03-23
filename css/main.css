@@ -383,10 +383,11 @@ justify-content: space-around;
 
 
 .item-33 {
-  flex-basis: 28%;
+  flex-basis: 380px;
+  flex-grow:1;
 
   margin: 2.5% 2.5%;
-  max-width:28%;
+ 
 
 }
 
