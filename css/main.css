@@ -214,12 +214,14 @@ a:hover{
 .date{
   width:45%;
   float:left;
+  font-size:0.5rem;
 }
 
 .tags{
   width:45%;
   float:right;
   text-align:right;
+  font-size:0.5rem;
 }
 #logosvg{
  transition: all .6s cubic-bezier(0.165, 0.84, 0.44, 1);
