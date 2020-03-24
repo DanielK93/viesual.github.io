@@ -547,11 +547,14 @@ user-select: none;
 }
 
 #menu{
-  padding: 5px 15px;
+  padding: 3px 15px 5px 15px;
     background-color: black;
     border-radius: 24px;
     color: white;
     width:110px;
+    font-family: "Youth";
+    text-transform: lowercase;
+
 }
 
 .infosection{
