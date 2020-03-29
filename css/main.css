@@ -146,7 +146,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin: 0 0 .5rem 0;
-  font-family: "Young";
+  font-variation-settings: "wght" 600;
 }
 
 
@@ -302,26 +302,16 @@ p{
 .white{
   color:var(--whitetext);
 }
-.menulist {
-  display: inline;
-  float: left;
-}
-
-.menulist li {
-  display: inline;
-  margin-left: 45px;
-}
-
-.menu ul {
-  float: left;
-}
 
 
 
-.mmc {
-  display: table-cell;
-  vertical-align: middle;
-}
+
+
+
+
+
+
+
 
 
  /*test*/
@@ -560,6 +550,12 @@ user-select: none;
 
 .infosection{
 
+}
+
+.menuarea{
+  position:fixed;
+  top:0;
+  right:0;
 }
 
 .stagelement {
