@@ -533,6 +533,7 @@ max-height:35vw;
 
 .teaserbutton{
   grid-area: 3 / 2 / 4 / 3;
+  text-align:right;
 }
 
 img {
