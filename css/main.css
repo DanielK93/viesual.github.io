@@ -259,7 +259,7 @@ p{
 }
 
 .internallink::after{
-
+  margin-left: 5px;
 content:"-->";
 }
 
