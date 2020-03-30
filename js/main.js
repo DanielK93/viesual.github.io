@@ -11,10 +11,12 @@ var small = false;
 var switchmenu = function() {
   open = !open;
     if (open == true){
-      event.target.innerHTML = "close";
+      menuelements[0].innerHTML = "close";
+      menuelements[1].innerHTML = "close";
       console.log("should say close");
     } else if (open == false){
-      event.target.innerHTML = "open";
+      menuelements[0].innerHTML = "open";
+      menuelements[1].innerHTML = "open";
       console.log("should say open");
     }
 };
