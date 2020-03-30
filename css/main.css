@@ -258,10 +258,14 @@ p{
   line-height:1.2;
 }
 
-.link::before{
+.internallink::before{
 position: absolute;
 left:0;
-content="-->"
+content:"-->";
+}
+
+.internallink{
+  position: relative;
 }
 
 .introsection{
