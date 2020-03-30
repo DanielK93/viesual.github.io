@@ -156,10 +156,6 @@ h4 {
     font-family: var(--boldfont);
 }
 
-a:hover:after {
-
-transform: rotate(45deg);
-}
 
 .sep{
   width:100%;
@@ -188,12 +184,7 @@ ul li{
   line-height: 1;
 }
 
-a:not(.logo):after{
-  content: " →";
-  transition: all .2s;
- display: inline-block;
- margin-left:6px;
-}
+
 
 a {
   transition: all .2s;
@@ -267,7 +258,11 @@ p{
   line-height:1.2;
 }
 
-
+.link::before{
+position: absolute;
+left:0;
+content="-->"
+}
 
 .introsection{
   width:80%;
