@@ -258,9 +258,8 @@ p{
   line-height:1.2;
 }
 
-.internallink::before{
-position: absolute;
-left:0;
+.internallink::after{
+
 content:"-->";
 }
 
