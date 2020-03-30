@@ -198,6 +198,8 @@ a {
   display:none;
 }
 
+
+
 .bulletlist li a::before{
   content: "● ";
   font-size:0.5rem;
@@ -735,4 +737,13 @@ to{
   to {
     opacity: 1;
   }
+}
+
+
+@media screen and (max-width: 640px) {
+
+#mobilemenutoggle{
+  display:block;
+}
+
 }
