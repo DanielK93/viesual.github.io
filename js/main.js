@@ -2,6 +2,7 @@ var menutoggle = document.getElementById("menu");
 var mobilemenu = document.getElementById("mobilemenu");
 var navbar = document.getElementById("navbar");
 var open = false;
+var mobilemenutoggle = document.getElementById("mobilemenutoggle");
 history.scrollRestoration = 'manual';
 var logo = document.getElementById("logosvg");
 
@@ -15,7 +16,7 @@ var h = window.innerHeight;
 
 
 
-var already = false;
+var small = false;
 
 
 
@@ -39,11 +40,12 @@ neuerwert = (latestKnownScrollY - eingabemin)/(eingabemax-eingabemin) * (neuemax
 function fixed(){
   logo.classList.remove("logosize-b");
   logo.classList.add("logosize-s");
+  small = true;
   }
 
 window.addEventListener('scroll', ()=> {
   latestKnownScrollY = window.scrollY;
-   if (latestKnownScrollY > 170){
+   if (latestKnownScrollY > 170 && small == false){
     requestAnimationFrame(fixed);
   }
 });

@@ -190,8 +190,12 @@ a {
   transition: all .2s;
 }
 
-a:hover{
-
+#mobilemenutoggle{
+  position:fixed;
+  bottom:20%;
+  left: 50%;
+  transform: translateX(-50%);
+  display:none;
 }
 
 .bulletlist li a::before{
