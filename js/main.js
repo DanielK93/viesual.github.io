@@ -21,7 +21,7 @@ var switchmenu = function() {
 
 
 for (var i = 0; i < menuelements.length; i++) {
-  elements[i].addEventListener('click', switchmenu, false);
+  menuelements[i].addEventListener('click', switchmenu, false);
 }
 
 
