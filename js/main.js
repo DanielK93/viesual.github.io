@@ -1,5 +1,5 @@
 var open = false;
-var menuelements = document.getElementsByClassName("menu");
+var menuelements = document.getElementsByClassName("menubutton");
 var menuoverlay = document.getElementById("menuoverlay");
 history.scrollRestoration = 'manual';
 var logo = document.getElementById("logosvg");
