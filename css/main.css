@@ -299,7 +299,10 @@ p{
   color:var(--whitetext);
 }
 
-
+.standardbutton{
+  padding: 5px 10px;
+  
+}
 
 
 
