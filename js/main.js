@@ -12,8 +12,10 @@ var switchmenu = function() {
   open = !open;
     if (open == true){
       event.target.innerHTML = "close";
+      console.log("should say close");
     } else if (open == false){
       event.target.innerHTML = "open";
+      console.log("should say open");
     }
 };
 
