@@ -196,6 +196,7 @@ a {
   left: 50%;
   transform: translateX(-50%);
   display:none;
+  z-index:3;
 }
 
 
@@ -331,6 +332,7 @@ content:"->";
   padding: 8px 0;
   align-items: center;
   background-color: var(--offwhite);
+  z-index: 3;
 }
 
 .item-50 > img{
