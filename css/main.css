@@ -567,7 +567,7 @@ user-select: none;
 
 }
 
-.menuoverlay{
+#menuoverlay{
   position:fixed;
   top:0;
   right:0;
