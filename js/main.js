@@ -13,7 +13,7 @@ var switchmenu = function() {
     if (open == true){
       menuelements[0].innerHTML = "close";
       menuelements[1].innerHTML = "close";
-      menuoverlay.style.display = "fixed";
+      menuoverlay.style.display = "flex";
       console.log("should say close");
     } else if (open == false){
       menuelements[0].innerHTML = "menu";
