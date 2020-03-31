@@ -576,6 +576,7 @@ user-select: none;
   background-color: var(--offwhite);
   z-index:2;
   display:none;
+  
 }
 
 .stagelement {
