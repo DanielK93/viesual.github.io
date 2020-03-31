@@ -573,7 +573,7 @@ user-select: none;
   right:0;
   height:100%;
   width:100%;
-  background-color: var (var(--offwhite);
+  background-color: var(--offwhite);
   z-index:2;
   display:none;
 }
