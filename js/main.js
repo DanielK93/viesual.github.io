@@ -16,8 +16,8 @@ var switchmenu = function() {
       menuoverlay.style.display = "block";
       console.log("should say close");
     } else if (open == false){
-      menuelements[0].innerHTML = "open";
-      menuelements[1].innerHTML = "open";
+      menuelements[0].innerHTML = "menu";
+      menuelements[1].innerHTML = "menu";
       menuoverlay.style.display = "none";
       console.log("should say open");
     }
