@@ -311,7 +311,7 @@ content:"->";
     font-family: "young";
    background-color: var(--offwhite);
     text-transform: lowercase;
-    transition: all 0.3 ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .standardbutton:hover{
