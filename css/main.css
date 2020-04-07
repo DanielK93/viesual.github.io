@@ -311,10 +311,12 @@ content:"->";
     font-family: "young";
    background-color: var(--offwhite);
     text-transform: lowercase;
-   
-
 }
 
+.standardbutton:hover{
+ background-color:black;
+ color:white;
+}
 
 
 
