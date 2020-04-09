@@ -75,8 +75,8 @@ html {
 }
 
 @font-face {
-  font-family: "Telegraf-Bold";
-  src: url(../type/otf/Telegraf-Bold.otf);
+  font-family: "Telegraf-SemiBold";
+  src: url(../type/otf/Telegraf-SemiBold.woff2);
   font-style: normal;
 }
 
@@ -106,7 +106,7 @@ html {
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   --variablefont: "93stf-v";
   --monofont: "SuisseIntlMono-Regular";
-  --boldfont: "Telegraf-Bold";
+  --semiboldfont: "Telegraf-SemiBold";
   --regularfont: "Telegraf-Regular";
 }
 
@@ -117,7 +117,7 @@ html {
 }
 
 body {
-  font-family: var(--variablefont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: var(--regularfont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   color: var(--greytext);
@@ -147,7 +147,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   margin: 0;
-  font-variation-settings: "wght" 600;
+  font-family: var(--semiboldfont)
 }
 
 h4 {
@@ -319,24 +319,6 @@ content:"->";
  color:white;
 }
 
-.noise {
-
-  z-index: 100;
-
-  position: fixed;
-
-  top: 0;
-
-  left: 0;
-
-  width: 100%;
-
-  height: 100%;
-
-  pointer-events: none;
-
-  opacity: .05;
-}
 
 
 
