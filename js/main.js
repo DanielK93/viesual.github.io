@@ -55,9 +55,12 @@ observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
 
   if(entry.intersectionRatio > 0){
-    entry.target.style.animation = `anim 2s forwards ease-out`;
+    entry.target.classList.add("inview");
+    entry.target.classList.remove("outofview");
+
   } else {
-    entry.target.style.animation = "none";
+    entry.target.classList.remove("inview");
+    entry.target.classList.add("outofview");
   }
 
 })
@@ -66,9 +69,6 @@ observer = new IntersectionObserver((entries) => {
 images.forEach(image =>{
   observer.observe(image)
 })
-
-
-
 
 
 
