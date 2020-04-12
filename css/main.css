@@ -717,13 +717,15 @@ height:100vh;
 
 
 [data-scroll] {
-  transition: opacity 1s;
+  transition: all 1s;
 }
 [data-scroll="in"] {
   opacity: 1;
+  transform: translate3d(0,0,0);
 }
 [data-scroll="out"] {
   opacity: 0;
+  transform: translate3d(0,100px,0);
 }
 
 
