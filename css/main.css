@@ -733,6 +733,7 @@ height:100vh;
   right: 0;
   bottom: 0;
   left: 0;
+  background-color:red;
 }
 .parallax__layer--base {
   transform: translateZ(0);
