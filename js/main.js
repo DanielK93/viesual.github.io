@@ -97,7 +97,7 @@ t._changed&&(t._changed=!1,f(n,t)),t._visibleChanged&&(d(n,{scroll:r?"in":"out"}
 
 let so = ScrollOut({
   once: true,
-  cssProps: true,
+  
   threshold: 0.1
 });
 
