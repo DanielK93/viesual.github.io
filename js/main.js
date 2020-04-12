@@ -46,6 +46,16 @@ window.addEventListener('scroll', ()=> {
   }
 });
 
+function inview(){
+  entry.target.classList.add("inview");
+  entry.target.classList.remove("outofview");
+}
+
+function outofview(){
+  entry.target.classList.remove("inview");
+  entry.target.classList.add("outofview");
+}
+
 
 function customobserve(){
 
@@ -56,12 +66,9 @@ observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
 
   if(entry.intersectionRatio > 0){
-    entry.target.classList.add("inview");
-    entry.target.classList.remove("outofview");
-
+    requestAnimationFrame(inview);
   } else {
-    entry.target.classList.remove("inview");
-    entry.target.classList.add("outofview");
+    requestAnimationFrame(outofview);
   }
 
 })
