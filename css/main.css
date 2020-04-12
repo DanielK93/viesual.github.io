@@ -720,12 +720,12 @@ height:100vh;
 }
 
 .inview{
- transform: translate(0,0,0);
+ transform: translate3d(0,0,0);
  opacity: 1;
 }
 
 .outofview{
-transform: translate(0,30px,0);
+transform: translate3d(0,30px,0);
 opacity:0;
 }
 
