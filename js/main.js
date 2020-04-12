@@ -95,7 +95,9 @@ for(var e=A.length-1;-1<e;e--){var t=A[e],n=t.element,r=t.visible
 t._changed&&(t._changed=!1,f(n,t)),t._visibleChanged&&(d(n,{scroll:r?"in":"out"}),o(n,t,H),(r?c:l)(n,t,H)),r&&E.once&&A.splice(e,1)}}function a(){O&&(O(),O=void 0)}return t(),n(),window.addEventListener("resize",n),_.addEventListener("scroll",n),{index:t,update:n,teardown:function(){a(),window.removeEventListener("resize",n),_.removeEventListener("scroll",n)}}}}()
 
 
-let so = ScrollOut();
+let so = ScrollOut({
+  once: true
+});
 
 
 
@@ -181,9 +183,3 @@ var FadeTransition = Barba.BaseTransition.extend({
 
 
 
-ScrollOut({
-  once: true
-});
-
-
-  
