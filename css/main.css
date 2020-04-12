@@ -723,6 +723,7 @@ height:100vh;
   position: relative;
   height: 50vh;
   transform-style: preserve-3d;
+  background-color:red;
 }
 
 .parallax__layer {
