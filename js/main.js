@@ -124,9 +124,7 @@ ScrollOut({
         offset: 400
 });
 
-ScrollOut();
 
-});
 
 
 
