@@ -694,13 +694,6 @@ margin-top:300px;
 height:100vh;
 }
 
-.nowrapcontainer{
-  display: flex;
-  width:100%;
-  max-width:100%;
-  overflow:hidden;
-height:100vh;
-}
 
 .swipeelement{
   width:80%;
@@ -715,9 +708,10 @@ height:100vh;
   width: 100%;
   margin: 0 auto;
   max-width:1920px;
-  margin-top:2.5%;
-
-
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .nomtop{
