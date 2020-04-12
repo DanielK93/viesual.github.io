@@ -54,10 +54,10 @@ observer = new IntersectionObserver((entries) => {
 
   console.log(entries);
 
-  if(entries.intersectionRatio > 0){
-    entries.target.style.animation = `anim 2s forwards ease-out`;
+  if(entries[0].intersectionRatio > 0){
+    entries[0].target.style.animation = `anim 2s forwards ease-out`;
   } else {
-    entries.target.style.animation = "none";
+    entries[0].target.style.animation = "none";
   }
 
 })
