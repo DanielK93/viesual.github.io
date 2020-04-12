@@ -717,10 +717,10 @@ height:100vh;
 
 
 [data-scroll] {
-  -webkit-transition: transform 500ms cubic-bezier(0.575, 0.005, 0.465, 1.000);
-   -moz-transition: transform 500ms cubic-bezier(0.575, 0.005, 0.465, 1.000);
-     -o-transition: transform 500ms cubic-bezier(0.575, 0.005, 0.465, 1.000);
-        transition: transform 500ms cubic-bezier(0.575, 0.005, 0.465, 1.000); 
+  -webkit-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
+  -moz-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
+    -o-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
+       transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
 }
 
 [data-scroll="in"] {
@@ -729,8 +729,6 @@ height:100vh;
 [data-scroll="out"] {
   transform: translate3d(0,50px,0);
 }
-
-
 
 
 
