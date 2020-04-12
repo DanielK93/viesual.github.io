@@ -54,8 +54,8 @@ function inview(object){
 
 function outofview(object){
   this.entry = object;
-  this.entry.target.classList.remove("inview");
-  this.entry.target.classList.add("outofview");
+  this.entry.classList.remove("inview");
+  this.entry.classList.add("outofview");
 }
 
 
@@ -68,9 +68,9 @@ observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
 
   if(entry.intersectionRatio > 0){
-    requestAnimationFrame(inview(entry));
+    requestAnimationFrame(inview(entry.target));
   } else {
-    requestAnimationFrame(outofview(entry));
+    requestAnimationFrame(outofview(entry.target));
   }
 
 })
