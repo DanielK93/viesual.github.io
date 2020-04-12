@@ -48,7 +48,7 @@ window.addEventListener('scroll', ()=> {
 
 
 
-const images = document.querySelectorAll(".fiwiv");
+const targetelements = document.querySelectorAll(".fiwiv");
 
 observer = new IntersectionObserver((entries) => {
 
@@ -66,8 +66,8 @@ observer = new IntersectionObserver((entries) => {
 })
 })
 
-images.forEach(image =>{
-  observer.observe(image)
+targetelements.forEach(targetelement =>{
+  observer.observe(targetelements)
 })
 
 
