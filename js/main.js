@@ -68,7 +68,7 @@ observer = new IntersectionObserver((entries) => {
 })
 
 targetelements.forEach(targetelement =>{
-  observer.observe(targetelements)
+  observer.observe(targetelement)
 })
 
 };
