@@ -119,12 +119,13 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
+
 ScrollOut({
   targets: ".item-33",
-        offset: 400
+  offset: 400
 });
 
-
+});
 
 
 
