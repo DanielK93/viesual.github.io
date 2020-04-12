@@ -81,6 +81,14 @@ slider.addEventListener('mousemove', e => {
 */
 
 
+const fiwiv = document.querySelector(".fiwiv");
+
+observer = new IntersectionObserver((entries) => {
+   console.log(entries);
+})
+
+observer.observe (fiwiv);
+
 var ScrollOut=function(){"use strict"
 function S(e,t,n){return e<t?t:n<e?n:e}function y(e){return+(0<e)-+(e<0)}var e,t={}
 function n(e){return"-"+e[0].toLowerCase()}function u(e){return t[e]||(t[e]=e.replace(/([A-Z])/g,n))}function r(e,t){return e&&0!==e.length?e.nodeName?[e]:[].slice.call(e[0].nodeName?e:(t||document.documentElement).querySelectorAll(e)):[]}function d(e,t){for(var n in t)n.indexOf("_")&&e.setAttribute("data-"+u(n),t[n])}var i=[]
@@ -158,7 +166,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
 
         function startfadein(){
-            so.index();
+    
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               
