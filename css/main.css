@@ -717,7 +717,7 @@ height:100vh;
 
 
 [data-scroll] {
-  transition: opacity 1s;
+  transition: opacity 0.5s;
 }
 [data-scroll="in"] {
   opacity: 1;
