@@ -46,13 +46,13 @@ window.addEventListener('scroll', ()=> {
   }
 });
 
-function inview(){
+function inview(object){
   this.entry = object;
   this.entry.classList.add("inview");
   this.entry.classList.remove("outofview");
 }
 
-function outofview(){
+function outofview(object){
   this.entry = object;
   this.entry.classList.remove("inview");
   this.entry.classList.add("outofview");
