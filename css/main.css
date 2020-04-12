@@ -364,8 +364,6 @@ a {
   width: 95%;
   padding: 0 2.5%;
   justify-content: space-around;
-  position: relative;
-  transform-style: preserve-3d;
 }
 
 .flexnest{
