@@ -52,17 +52,20 @@ const targets = document.querySelector(".fiwiv");
 
 observer = new IntersectionObserver((entries) => {
 
-  console.log(entries);
+  entries.forEach(entry => {
 
-  if(entries[0].intersectionRatio > 0){
-    entries[0].target.style.animation = `anim 2s forwards ease-out`;
+  if(entry.intersectionRatio > 0){
+    entry.target.style.animation = `anim 2s forwards ease-out`;
   } else {
-    entries[0].target.style.animation = "none";
+    entry.target.style.animation = "none";
   }
 
 })
+})
 
-observer.observe(targets);
+targets.forEach(target =>{
+  observer.observe(target)
+})
 
 
 
