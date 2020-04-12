@@ -119,7 +119,7 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
-ScrollOut();
+
 
 });
 
@@ -159,7 +159,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             _this.newContainer.addEventListener("animationend", function(){
                 _this.newContainer.classList.remove("fade-in");
                 _this.done();
-
+                ScrollOut();
 
             });
         }
