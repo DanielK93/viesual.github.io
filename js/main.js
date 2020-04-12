@@ -3,6 +3,7 @@ var menuelements = document.getElementsByClassName("menubutton");
 var menuoverlay = document.getElementById("menuoverlay");
 history.scrollRestoration = 'manual';
 var logo = document.getElementById("logosvg");
+let so = ScrollOut();
 
 
 
@@ -150,14 +151,14 @@ var FadeTransition = Barba.BaseTransition.extend({
         this.oldContainer.addEventListener("animationend", function(){
             _this.oldContainer.style.display = "none"
             document.getElementById("barba-wrapper").removeChild(_this.oldContainer);
-            this.teardown();
+            so.teardown();
             window.scrollTo(0, 0);
            
             startfadein();
         });
 
         function startfadein(){
-         
+            so.index();
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               
