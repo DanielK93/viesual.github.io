@@ -725,7 +725,7 @@ height:100vh;
 }
 [data-scroll="out"] {
   opacity: 0;
-  transform: translate3d(0,100px,0);
+  transform: translate3d(0,42px,0);
 }
 
 
