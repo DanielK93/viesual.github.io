@@ -181,7 +181,9 @@ var FadeTransition = Barba.BaseTransition.extend({
 
 
 
-ScrollOut();
+ScrollOut({
+  once: true
+});
 
 
   
