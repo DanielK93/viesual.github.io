@@ -96,7 +96,8 @@ t._changed&&(t._changed=!1,f(n,t)),t._visibleChanged&&(d(n,{scroll:r?"in":"out"}
 
 
 let so = ScrollOut({
-  once: true
+  once: true,
+  threshold: 0.05
 });
 
 
@@ -124,7 +125,6 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
-so.index();
 
 });
 
@@ -162,7 +162,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
 
         function startfadein(){
-           
+          so.index();
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               
