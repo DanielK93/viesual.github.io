@@ -717,10 +717,10 @@ height:100vh;
 
 
 [data-scroll] {
-  -webkit-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
-  -moz-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
-    -o-transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
-       transition: transform 1000ms cubic-bezier(0.495, 0.265, 0.710, 0.460);
+  -webkit-transition: transform 1000ms cubic-bezier(0.210, 0.675, 0.505, 0.850);
+  -moz-transition: transform 1000ms cubic-bezier(0.210, 0.675, 0.505, 0.850);
+    -o-transition: transform 1000ms cubic-bezier(0.210, 0.675, 0.505, 0.850);
+       transition: transform 1000ms cubic-bezier(0.210, 0.675, 0.505, 0.850); 
 }
 
 [data-scroll="in"] {
