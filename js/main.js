@@ -125,7 +125,7 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
-
+so.index();
 
 });
 
@@ -163,7 +163,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         });
 
         function startfadein(){
-            so.index();
+           
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               
