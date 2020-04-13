@@ -412,8 +412,7 @@ a {
   padding:10px 20px;
   background-color:black;
   color:white;
-  height:40px;
-  line-height: 40px;
+
 
 }
 
@@ -428,6 +427,8 @@ a {
 .item-menu ul li{
   display: inline;
   font-size: 1.5rem;
+  height:40px;
+  line-height: 40px;
 }
 
 .item-50 {
