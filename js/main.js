@@ -63,7 +63,7 @@ observer = new IntersectionObserver((entries) => {
     entry.target.classList.remove("outofview")
     entry.target.isseen = true;
   } else {
-    if (entry.target.isseen == false){
+    if (entry.target.isseen != true){
     entry.target.classList.add("outofview");
   }
 }
