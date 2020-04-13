@@ -320,12 +320,12 @@ content:"->";
  /*test*/
 .fixedheader{
   position:fixed;
- width:96%;
+ width:95%;
  left:50%;
  transform: translateX(-50%);
  max-width:1550px;
  margin:0 auto;
- padding: 0 2%;
+ padding: 0 2.5%;
   align-items: center;
   z-index: 3;
 }
