@@ -716,7 +716,7 @@ height:100vh;
 }
 
 .observe{
-  transition: all 1s;
+  transition: all 1s ease-in;
 }
 
 .footer{
