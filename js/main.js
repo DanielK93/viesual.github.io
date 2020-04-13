@@ -56,12 +56,14 @@ observer = new IntersectionObserver((entries) => {
 
   entries.forEach(entry => {
 
+    console.log(entry);
+
   if(entry.intersectionRatio > 0){
     entry.target.classList.add("inview");
     entry.target.classList.remove("outofview")
   } else {
     entry.target.classList.add("outofview");
-
+      if 
   }
 
 })
