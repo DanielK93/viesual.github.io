@@ -3,8 +3,7 @@ var menuelements = document.getElementsByClassName("menubutton");
 var menuoverlay = document.getElementById("menuoverlay");
 history.scrollRestoration = 'manual';
 var logo = document.getElementById("logosvg");
-
-
+isseen = false;
 
 
 var small = false;
@@ -62,10 +61,12 @@ observer = new IntersectionObserver((entries) => {
   if(entry.intersectionRatio > 0){
     entry.target.classList.add("inview");
     entry.target.classList.remove("outofview")
+    entry.target.isseen = true;
   } else {
+    if (entry.target.isseen == false){
     entry.target.classList.add("outofview");
-      
   }
+}
 
 })
 })
