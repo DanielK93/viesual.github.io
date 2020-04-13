@@ -398,6 +398,12 @@ a {
   margin: 2.5% 2.5%;
 }
 
+.item-33__footer {
+  flex-basis: 180px;
+  flex-grow:1;
+  margin: 2.5% 2.5%;
+}
+
 .item-17{
   flex-basis:17%;
   margin: 2.5% 2.5%;
