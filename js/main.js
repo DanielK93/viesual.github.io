@@ -59,14 +59,13 @@ observer = new IntersectionObserver((entries) => {
     
 
   if(entry.intersectionRatio > 0){
-    entry.target.classList.add("inview");
-    entry.target.classList.remove("outofview")
+    entry.target.classList.add("__in");
+    entry.target.classList.remove("__out")
     entry.target.isseen = true;
-  } else {
-    if (entry.target.isseen != true){
-    entry.target.classList.add("outofview");
+  } else if (entry.target.isseen != true && entry.intersectionRatio == 0){
+    entry.target.classList.add("__out");
   }
-}
+
 
 })
 })
