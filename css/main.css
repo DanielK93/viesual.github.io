@@ -748,7 +748,9 @@ height:100vh;
   .flexboxcontainer__footer {
     flex-direction: column;
   }
-
+  .right{
+    text-align:left;
+  }
 
 }
 
