@@ -403,11 +403,11 @@ a {
   width:200px;
 }
 
-.menu-item{
+.item-menu{
   width:400px;
 }
 
-.menu-item ul li{
+.item-menu ul li{
   display: inline;
   margin-left:40px;
 }
