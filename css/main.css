@@ -420,7 +420,7 @@ a {
 .item-menu ul{
   text-align: right;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width:100%;
 }
 
