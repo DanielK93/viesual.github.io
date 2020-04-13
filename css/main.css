@@ -89,12 +89,12 @@ html {
 :root {
   --white: #fcfcfc;
   --blacktext: rgba(0, 0, 0, .9);
-  --greytext: rgba(255, 255, 255, .9);
+  --greytext: rgba(0, 0, 0, .9);
   --linkcolor: rgba(0, 0, 0, .9);
   --whitetext: rgba(255,255,255, 0.95);
   --lighttext: rgba(0,0,0,.4);
   --offwhite: #F3F3F3;
-  --seashell: #0A0A0A;
+  --seashell: #F9F6F4;
   --isabelline: #EAEAEA;
     --neon: #baff29;
   --hovercolor: white;
@@ -717,7 +717,7 @@ height:100vh;
 .container {
   width: 100%;
   margin: 0 auto;
-  max-width:1550px;
+  max-width:155ß0px;
   perspective: 1px;
 }
 
