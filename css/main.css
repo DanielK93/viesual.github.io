@@ -414,10 +414,15 @@ a {
   color:white;
   height:40px;
   line-height: 40px;
+
 }
+
 
 .item-menu ul{
   text-align: right;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
 }
 
 .item-menu ul li{
