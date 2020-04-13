@@ -396,7 +396,7 @@ a {
 
 
 .item-logo{
-  padding: 15px 2.5%;
+  padding: 10px 2.5%;
   width:140px;
   background-color:black;
 }
@@ -407,7 +407,7 @@ a {
 
 .item-menu{
   width:400px;
-  padding:15px 2.5%;
+  padding:10px 2.5%;
   background-color:black;
   color:white;
 }
