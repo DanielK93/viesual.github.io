@@ -342,7 +342,7 @@ a {
   scroll-snap-type: y proximity;
   width: 95%;
   padding: 0 2.5%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 
@@ -410,7 +410,7 @@ a {
 .item-menu ul{
   text-align: right;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width:100%;
 }
 
