@@ -743,7 +743,7 @@ height:100vh;
   justify-content: start;
 }
 
-@media screen and (max-width: 754px) {
+@media screen and (max-width: 680px) {
 
   .flexboxcontainer__footer {
     flex-direction: column;
