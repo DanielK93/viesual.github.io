@@ -734,7 +734,7 @@ height:100vh;
   flex-direction: row;
   width: 95%;
   padding: 0 2.5%;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .flexboxcontainer__footer {
