@@ -723,6 +723,8 @@ height:100vh;
   background-color: #000;
   color:white;
   margin-top:100px;
+  padding-top:50px;
+  padding-bottom:50px;
 }
 
 .__out{
