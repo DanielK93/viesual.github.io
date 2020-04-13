@@ -29,23 +29,6 @@ for (var i = 0; i < menuelements.length; i++) {
 }
 
 
-var latestKnownScrollY = 0;
-
-
-function fixed(){
-  logo.classList.remove("logosize-b");
-  logo.classList.add("logosize-s");
-  small = true;
-  }
-
-window.addEventListener('scroll', ()=> {
-  latestKnownScrollY = window.scrollY;
-   if (latestKnownScrollY > 170 && small == false){
-    requestAnimationFrame(fixed);
-  }
-});
-
-
 
 function customobserve(){
 
