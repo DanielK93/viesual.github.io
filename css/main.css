@@ -739,8 +739,7 @@ height:100vh;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 95%;
-  padding: 0 2.5%;
+  width: 100%;
   justify-content: space-between;
   align-items: stretch;
 }
