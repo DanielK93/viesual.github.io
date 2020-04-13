@@ -725,6 +725,16 @@ height:100vh;
   transition: all 1s ease-out;
 }
 
+.flexboxcontainer__header {
+  background-color: #000;
+  color:white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 95%;
+  padding: 2.5% 2.5%;
+  justify-content: start;
+}
 
 .flexboxcontainer__footer {
   background-color: #000;
