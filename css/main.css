@@ -410,6 +410,7 @@ a {
 .item-menu ul li{
   display: inline;
   margin-left:40px;
+  font-size: 2rem;
 }
 
 .item-50 {
