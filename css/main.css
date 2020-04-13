@@ -403,7 +403,8 @@ a {
 }
 
 .item-logo{
-  margin: 2.5% 2.5%;
+  padding: 2.5% 2.5%;
+  width:200px;
 }
 
 .item-50 {
