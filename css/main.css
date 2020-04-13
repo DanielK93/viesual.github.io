@@ -332,10 +332,7 @@ content:"->";
   max-height:50%;
 }
 
-.logo {
-text-align: center;
-max-width:300px;
-}
+
 
 #menutoggle {
   text-align:right;
@@ -399,8 +396,8 @@ a {
 
 
 .item-logo{
-  padding: 2.5% 2.5%;
-  width:200px;
+  padding: 0 2.5%;
+  width:160px;
 }
 
 .item-menu{
