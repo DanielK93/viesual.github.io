@@ -385,7 +385,11 @@ a {
   max-width:60%;
 }
 
-
+.footeritem{
+  flex-basis:200px;
+  flex-grow:0;
+  flex-shrink:0;
+}
 
 .item-33 {
   flex-basis: 380px;
