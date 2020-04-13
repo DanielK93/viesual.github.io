@@ -396,8 +396,13 @@ a {
 
 
 .item-logo{
-  padding: 0 2.5%;
+  padding: 2.5% 2.5%;
   width:160px;
+  background-color:black;
+}
+
+#logosvg{
+  fill:white;
 }
 
 .item-menu{
