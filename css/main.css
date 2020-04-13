@@ -725,7 +725,7 @@ height:100vh;
   transition: all 1s ease-out;
 }
 
-.flexboxcontainer__header {
+.flexboxcontainer__header{
   background-color: #000;
   color:white;
   display: flex;
