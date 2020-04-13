@@ -49,7 +49,7 @@ window.addEventListener('scroll', ()=> {
 
 function customobserve(){
 
-const targetelements = document.querySelectorAll(".fiwiv");
+const targetelements = document.querySelectorAll(".observe");
 
 observer = new IntersectionObserver((entries) => {
 
