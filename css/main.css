@@ -386,11 +386,7 @@ a {
   max-width:60%;
 }
 
-.footeritem{
-  flex-basis:300px;
-  flex-grow:0;
-  flex-shrink:0;
-}
+
 
 .item-33 {
   flex-basis: 380px;
@@ -399,7 +395,7 @@ a {
 }
 
 .item-33__footer {
-  flex-basis: 180px;
+  flex-basis: 160px;
   flex-grow:1;
   margin: 2.5% 2.5%;
 }
