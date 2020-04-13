@@ -61,7 +61,7 @@ observer = new IntersectionObserver((entries) => {
     entry.target.classList.remove("outofview")
   } else {
     entry.target.classList.add("outofview");
-    entry.target.classList.remove("inview")
+
   }
 
 })
