@@ -421,7 +421,7 @@ a {
 .item-menu ul{
   text-align: right;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width:100%;
 }
 
