@@ -404,6 +404,8 @@ a {
   margin: 2.5% 2.5%;
 }
 
+
+
 .item-17{
   flex-basis:17%;
   margin: 2.5% 2.5%;
@@ -732,13 +734,26 @@ height:100vh;
   transition: all 1s ease-out;
 }
 
-.footer{
+
+.flexboxcontainer__footer {
   background-color: #000;
   color:white;
+  display: flex;
+  flex-wrap: wrap;
+  scroll-snap-type: y proximity;
+  width: 95%;
   margin-top:100px;
-  padding-top:50px;
-  padding-bottom:50px;
+  padding: 50px 2.5%;
   justify-content: start;
+}
+
+@media screen and (max-width: 754px) {
+
+  .flexboxcontainer__footer {
+    flex-direction: column;
+  }
+
+
 }
 
 .__out{
