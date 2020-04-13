@@ -320,11 +320,12 @@ content:"->";
  /*test*/
 .fixedheader{
   position:fixed;
- width:100%;
+ width:96%;
  left:50%;
  transform: translateX(-50%);
  max-width:1550px;
  margin:0 auto;
+ padding: 0 2%;
   align-items: center;
   z-index: 3;
 }
@@ -411,8 +412,8 @@ a {
   padding:10px 20px;
   background-color:black;
   color:white;
-  height:60px;
-  line-height: 60px;
+  height:40px;
+  line-height: 40px;
 }
 
 .item-menu ul{
@@ -593,6 +594,7 @@ user-select: none;
   z-index:2;
   display:none;
   padding-top:200px;
+
 
 }
 
