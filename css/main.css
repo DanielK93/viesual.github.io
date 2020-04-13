@@ -398,13 +398,18 @@ a {
 }
 
 
-.smalltext{
-  font-size: 0.5rem;
-}
-
 .item-logo{
   padding: 2.5% 2.5%;
   width:200px;
+}
+
+.menu-item{
+  width:400px;
+}
+
+.menu-item ul li{
+  display: inline;
+  margin-left:40px;
 }
 
 .item-50 {
