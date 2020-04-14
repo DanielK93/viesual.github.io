@@ -435,7 +435,7 @@ a {
   width:100%;
   transform: scaleX(0);
   background-color:white;
-  transition: width .5s;
+  transition: transform .5s;
 }
 
 .item-menu ul li a:hover::before{
