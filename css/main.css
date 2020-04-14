@@ -766,6 +766,7 @@ height:100vh;
   flex-direction: row;
   width: 95%;
   margin-top:100px;
+  margin-bottom: 20px;
   padding: 50px 2.5%;
   justify-content: start;
 }
