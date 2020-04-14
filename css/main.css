@@ -422,6 +422,16 @@ a {
   margin: 0;
 }
 
+item-menu ul li a {
+  position: relative;
+}
+
+.item-menu ul li a::before{
+  content:"+ ";
+  position: absolute;
+  left:0;
+}
+
 .item-50 {
   flex-basis: 45%;
     margin: 2.5% 2.5%;
