@@ -41,11 +41,11 @@ observer = new IntersectionObserver((entries) => {
   
     
 
-  if(entry.intersectionRatio > 0){
+  if(entry.intersectionRatio > 0 && element.classList.contains("ca_ma")){
     entry.target.classList.add("__in");
     entry.target.classList.remove("__out")
     entry.target.isseen = true;
-  } else if (entry.target.isseen != true && entry.intersectionRatio == 0){
+  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && element.classList.contains("ca_ma")){
     entry.target.classList.add("__out");
   }
 
