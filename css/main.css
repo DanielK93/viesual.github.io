@@ -432,7 +432,12 @@ a {
   bottom:-3px;
   left:0;
   height:3px;
+  width:0;
   background-color:white;
+}
+
+.item-menu ul li a:hover::before{
+  width:100%;
 }
 
 .item-50 {
