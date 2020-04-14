@@ -833,6 +833,9 @@ height:100vh;
   bottom: 0;
 }
 
+.sep.__inview{
+  transform: translate3d(0,0,0);
+}
 
  .__in{
   transform: translate3d(0,0,0);
