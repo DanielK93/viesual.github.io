@@ -422,12 +422,12 @@ a {
   margin: 0;
 }
 
-item-menu ul li a {
+.item-menu ul li a {
   position: relative;
   color:white;
 }
 
-.item-menu ul li a::after{
+.item-menu ul li a::before{
   content:"+ ";
   position: absolute;
 }
