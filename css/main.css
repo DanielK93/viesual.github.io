@@ -473,6 +473,7 @@ a {
   flex-grow: 1;
 position: relative;
 margin: 0 2.5%;
+transition: transform 1s ease-out;
 }
 
 .uc__padd{
