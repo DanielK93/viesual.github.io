@@ -818,7 +818,6 @@ height:100vh;
 .sep {
   width:100%;
   height:3px;
-  transform: translate3d(0,0,0) scaleX(0);
   background-color:black;
   transform-origin: left;
   transition: all 1s ease-out;
@@ -833,8 +832,8 @@ height:100vh;
   bottom: 0;
 }
 
-.sep.__inview{
-  transform: translate3d(0,0,0);
+.sep.__out{
+  transform: translate3d(0,0,0) scale(0);
 }
 
  .__in{
