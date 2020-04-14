@@ -431,7 +431,6 @@ a {
   content:"→ ";
   display: inline-block;
   transform: rotate(-45deg);
-  font-size:2rem;
 }
 
 .item-50 {
