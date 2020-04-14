@@ -806,6 +806,12 @@ height:100vh;
 
 
 
+
+.__out{
+  transform: translate3d(0,60px,0);
+  opacity: 0;
+}
+
 .seperator{
   width:95%;
   margin: 0 2.5%;
@@ -816,12 +822,10 @@ height:100vh;
   transition: all .5s ease-out;
 }
 
-.item-33.__out{
-  transform: translate3d(0,60px,0);
-}
 
- .item-33.__in{
-  animation: move-up .5s forwards;
+ .__in{
+  transform: translate3d(0,0,0);
+  opacity: 1;
  }
 
 .fade-in {
@@ -832,16 +836,6 @@ height:100vh;
   animation: fade-out .5s forwards;
 }
 
-@keyframes move-up {
-  from {
-    opacity: 0;
-    transform: translate3d(0,60px,0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0,0,0);
-  }
-}
 
 @keyframes fade-out {
   from {
