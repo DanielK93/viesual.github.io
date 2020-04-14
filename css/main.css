@@ -828,7 +828,7 @@ height:100vh;
 }
 
 .a01{
-  transition: all 1s;
+  transition: transform 1s opacity .5s;
 }
 
 .a01_in{
