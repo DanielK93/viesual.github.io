@@ -433,13 +433,13 @@ a {
   left:0;
   height:2px;
   width:100%;
-  transform: scaleX(-100%);
+  transform: scaleX(0);
   background-color:white;
   transition: width .5s;
 }
 
 .item-menu ul li a:hover::before{
-  transform: scaleX(100%);
+  transform: scaleX(1);
 }
 
 @keyframes line-in{
