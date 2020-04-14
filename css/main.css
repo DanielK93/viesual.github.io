@@ -449,8 +449,7 @@ a {
   to{
     transform: translate3D(0,-100,0);
   }
-  
-  }
+}
   
 
 .item-50 {
@@ -835,6 +834,16 @@ height:100vh;
  }
 
  .a01_out{
+  transform: translate3d(0,60px,0);
+  opacity: 0;
+}
+
+.a02_in{
+  transform: translate3d(0,0,0);
+  opacity: 1;
+ }
+
+ .a02_out{
   transform: translate3d(0,60px,0);
   opacity: 0;
 }
