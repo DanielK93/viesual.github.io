@@ -472,10 +472,7 @@ a {
   flex-basis: 100%;
   flex-grow: 1;
 position: relative;
-  scroll-snap-align: center;
-margin-left: 2.5%;
-margin-right: 2.55%;
-max-height:35vw;
+margin: 0 2.5%;
 }
 
 .uc__padd{
