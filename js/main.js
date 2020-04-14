@@ -48,6 +48,14 @@ observer = new IntersectionObserver((entries) => {
     entry.target.classList.add("a01_out");
   }
 
+  if(entry.intersectionRatio > 0 && entry.target.classList.contains("a02")){
+    entry.target.classList.add("a02_in");
+    entry.target.classList.remove("a02_out")
+    entry.target.isseen = true;
+  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && entry.target.classList.contains("a02")){
+    entry.target.classList.add("a02_out");
+  }
+
 
 })
 })
