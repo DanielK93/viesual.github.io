@@ -823,6 +823,7 @@ height:100vh;
   transition: all 1s ease-out;
   position: absolute;
   left: 0;
+  opacity: 1;
 }
 .sep__top{
   top: 0;
@@ -834,7 +835,7 @@ height:100vh;
 
 .sep.__out{
   transform: translate3d(0,0,0) scale(0);
-  opacity: 1;
+ 
 }
 
  .__in{
