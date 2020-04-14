@@ -428,9 +428,10 @@ a {
 }
 
 .item-menu ul li a::before{
-  content:"+ ";
+  content:"→ ";
   display: inline-block;
   transform: rotate(-45deg);
+  font-size:2rem;
 }
 
 .item-50 {
