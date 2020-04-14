@@ -40,12 +40,12 @@ observer = new IntersectionObserver((entries) => {
 
   
 
-  if(entry.intersectionRatio > 0 && entry.target.classList.contains("anim__mu")){
-    entry.target.classList.add("anim__mu_in");
-    entry.target.classList.remove("anim__mu_out")
+  if(entry.intersectionRatio > 0 && entry.target.classList.contains("a01")){
+    entry.target.classList.add("a01_in");
+    entry.target.classList.remove("a01_out")
     entry.target.isseen = true;
-  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && entry.target.classList.contains("anim__mu")){
-    entry.target.classList.add("anim__mu_out");
+  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && entry.target.classList.contains("a01")){
+    entry.target.classList.add("a01_out");
   }
 
 

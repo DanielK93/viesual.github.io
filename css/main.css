@@ -831,12 +831,12 @@ height:100vh;
 }
 
 
-.anim__mu_in{
+.a01_in{
   transform: translate3d(0,0,0);
   opacity: 1;
  }
 
- .anim__mu_out{
+ .a01_out{
   transform: translate3d(0,60px,0);
   opacity: 0;
 }
