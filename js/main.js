@@ -39,9 +39,8 @@ observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
 
   
-    
 
-  if(entry.intersectionRatio > 0 && element.classList.contains("ca_ma")){
+  if(entry.intersectionRatio > 0 && entry.classList.contains("ca_ma")){
     entry.target.classList.add("__in");
     entry.target.classList.remove("__out")
     entry.target.isseen = true;
