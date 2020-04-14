@@ -32,7 +32,7 @@ for (var i = 0; i < menuelements.length; i++) {
 
 function customobserve(){
 
-const targetelements = document.querySelectorAll(".observe");
+const targetelements = document.querySelectorAll(".intobs");
 
 observer = new IntersectionObserver((entries) => {
 
