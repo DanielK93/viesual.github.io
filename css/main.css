@@ -811,8 +811,7 @@ transform: translate3d(0,60px,0);
   width:90%;
   padding:0 5%;
   height:1.5px;
-  transform: scaleX(0);
-  transition: scale 1s;
+  transform: translate3d(0,0,0) scaleX(0);
   background-color:black;
 }
 
