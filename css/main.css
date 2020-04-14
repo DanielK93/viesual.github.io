@@ -819,8 +819,10 @@ transform: translate3d(0,60px,0);
   transition: all .5s ease-out;
 }
 
-.__in{
-  transform: translate3d(0,0,0) scaleX(1);
+
+
+ .item-33.__in{
+  animation: move-up .5s forwards;
  }
 
 .fade-in {
@@ -831,7 +833,16 @@ transform: translate3d(0,60px,0);
   animation: fade-out .5s forwards;
 }
 
-
+@keyframes move-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0,60px,0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
 
 @keyframes fade-out {
   from {
