@@ -369,6 +369,7 @@ a {
   flex-basis: 380px;
   flex-grow:1;
   margin: 2.5% 2.5%;
+  transition: transform 1s ease-out;
 }
 
 .item-33__footer {
@@ -764,7 +765,7 @@ height:100vh;
 }
 
 .observe{
-  transition: all 1s ease-out;
+
 }
 
 
