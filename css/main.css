@@ -810,10 +810,7 @@ height:100vh;
 
 
 
-.__out{
-  transform: translate3d(0,60px,0);
-  opacity: 0;
-}
+
 
 .sep {
   width:100%;
@@ -833,15 +830,16 @@ height:100vh;
   bottom: 0;
 }
 
-.sep.__out{
-  transform: translate3d(0,0,0) scale(0);
- 
-}
 
- .__in{
+.ca__mu_in{
   transform: translate3d(0,0,0);
   opacity: 1;
  }
+
+ .ca__mu_out{
+  transform: translate3d(0,60px,0);
+  opacity: 0;
+}
 
 .fade-in {
   animation: fade-in .5s forwards;
