@@ -473,7 +473,7 @@ a {
 .item-100 {
   flex-basis: 100%;
   flex-grow: 1;
-
+position: relative;
   scroll-snap-align: center;
 margin-left: 2.5%;
 margin-right: 2.55%;
@@ -819,7 +819,9 @@ height:100vh;
   background-color:black;
   transform-origin: left;
   transition: all .5s ease-out;
-  clear:both;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
