@@ -819,7 +819,6 @@ height:100vh;
   background-color:black;
   transform-origin: left;
   transition: all .5s ease-out;
-  position: absolute;
   clear:both;
 }
 
