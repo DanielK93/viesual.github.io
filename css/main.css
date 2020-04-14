@@ -810,8 +810,8 @@ transform: translate3d(0,60px,0);
 }
 
 .seperator{
-  width:90%;
-  margin: 0 5%;
+  width:95%;
+  margin: 0 2.5%;
   height:1.5px;
   transform: translate3d(0,0,0) scaleX(0);
   background-color:black;
