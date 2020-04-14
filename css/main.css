@@ -424,6 +424,7 @@ a {
 
 item-menu ul li a {
   position: relative;
+  color:white;
 }
 
 .item-menu ul li a::after{
