@@ -804,10 +804,7 @@ height:100vh;
 
 }
 
-.__out{
-transform: translate3d(0,60px,0);
 
-}
 
 .seperator{
   width:95%;
@@ -819,7 +816,9 @@ transform: translate3d(0,60px,0);
   transition: all .5s ease-out;
 }
 
-
+.item-33.__out{
+  transform: translate3d(0,60px,0);
+}
 
  .item-33.__in{
   animation: move-up .5s forwards;
