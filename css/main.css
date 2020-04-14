@@ -439,7 +439,7 @@ a {
 }
 
 .item-menu ul li a:hover::before{
-  transform: scaleX(-100%);
+  transform: scaleX(100%);
 }
 
 @keyframes line-in{
