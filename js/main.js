@@ -40,11 +40,11 @@ observer = new IntersectionObserver((entries) => {
 
   
 
-  if(entry.intersectionRatio > 0 && entry.classList.contains("ca_ma")){
+  if(entry.intersectionRatio > 0 && entry.target.classList.contains("ca_ma")){
     entry.target.classList.add("__in");
     entry.target.classList.remove("__out")
     entry.target.isseen = true;
-  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && entry.classList.contains("ca_ma")){
+  } else if (entry.target.isseen != true && entry.intersectionRatio == 0 && entry.target.classList.contains("ca_ma")){
     entry.target.classList.add("__out");
   }
 
