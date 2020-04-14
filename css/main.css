@@ -426,7 +426,7 @@ a {
   color:white;
 }
 
-.item-menu ul li a::before{
+.item-menu ul li a::before {
   content:" ";
   position: absolute;
   bottom:-5px;
@@ -438,7 +438,7 @@ a {
   transition: transform .5s;
 }
 
-.item-menu ul li a:hover::before{
+.item-menu ul li a:hover::before {
   transform: scaleX(1);
 }
 
@@ -477,6 +477,15 @@ margin-left: 2.5%;
 margin-right: 2.55%;
 max-height:35vw;
 }
+
+.seperator{
+  width:95%;
+  padding:0 2.5%;
+  height:1.5px;
+  transform: scaleX(0);
+  transition: scale 1s;
+}
+
 
 /*
 @media screen and (max-width:980px) {
@@ -609,9 +618,6 @@ user-select: none;
 
 }
 
-.infosection{
-
-}
 
 #menuoverlay{
   position:fixed;
@@ -810,6 +816,7 @@ transform: translate3d(0,60px,0);
 
 .__in{
   transform: translate3d(0,0,0);
+  transform: scaleX(1);
 
  }
 
