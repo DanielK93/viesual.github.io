@@ -431,7 +431,7 @@ a {
   position: absolute;
   bottom:-5px;
   left:0;
-  height:2px;
+  height:3px;
   width:100%;
   transform: scaleX(0);
   background-color:white;
