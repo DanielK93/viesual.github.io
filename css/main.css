@@ -484,6 +484,7 @@ max-height:35vw;
   height:1.5px;
   transform: scaleX(0);
   transition: scale 1s;
+  background-color:black;
 }
 
 
