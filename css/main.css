@@ -426,10 +426,9 @@ item-menu ul li a {
   position: relative;
 }
 
-.item-menu ul li a::before{
+.item-menu ul li a::after{
   content:"+ ";
   position: absolute;
-  left:0;
 }
 
 .item-50 {
