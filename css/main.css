@@ -342,8 +342,11 @@ a {
   justify-content: space-around;
 }
 
-.secdiv{
-  padding: 80px 0;
+.item-div{
+  flex-basis: 100%;
+  flex-grow: 1;
+  position: relative;
+  margin: 80px 2.5%;
 }
 
 .flexnest{
