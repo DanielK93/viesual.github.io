@@ -2,12 +2,7 @@ var open = false;
 var menuelements = document.getElementsByClassName("menubutton");
 var menuoverlay = document.getElementById("menuoverlay");
 history.scrollRestoration = 'manual';
-var logo = document.getElementById("logosvg");
 isseen = false;
-
-
-var small = false;
-
 
 
 
