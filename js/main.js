@@ -21,6 +21,7 @@ var header = document.getElementById("fixedheader");
 function myFunction() {
   if (window.pageYOffset >=100) {
     header.style.top = "0";
+    header.style.position ="fixed";
   } else {
     header.style.top = "100px";
   }
