@@ -393,6 +393,8 @@ a {
 .item-logo{
   width: 140px;
   font-family: "Telegraf-SemiBold";
+  height:44px;
+  line-height:44px;
 }
 
 #logosvg{
@@ -400,8 +402,8 @@ a {
 }
 
 .item-info{
-  height:40px;
-  line-height:40px;
+  height:44px;
+  line-height:44px;
 }
 
 .item-menu{
@@ -420,8 +422,8 @@ a {
 
 .item-menu ul li{
   display: inline;
-  height:40px;
-  line-height: 40px;
+  height:44px;
+  line-height: 44px;
   margin: 0;
 }
 
