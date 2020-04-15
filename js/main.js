@@ -4,7 +4,19 @@ var menuoverlay = document.getElementById("menuoverlay");
 history.scrollRestoration = 'manual';
 isseen = false;
 
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
 
+// Get the header
+var header = document.getElementById("fixedheader");
+
+function myFunction() {
+  if (window.pageYOffset >= 140) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 
 var switchmenu = function() {
   open = !open;
