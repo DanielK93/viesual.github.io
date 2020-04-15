@@ -342,6 +342,9 @@ a {
   justify-content: space-around;
 }
 
+.sectiondiv{
+  margin: 80px 0;
+}
 
 .flexnest{
   display: flex;
