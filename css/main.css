@@ -780,7 +780,7 @@ height:100vh;
   flex-direction: row;
   width: 95%;
   margin: 15px 2.5%;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: stretch;
   height:40px;
 }
