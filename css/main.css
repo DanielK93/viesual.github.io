@@ -391,7 +391,6 @@ a {
 
 
 .item-logo{
-  width: 140px;
   font-family: "Telegraf-SemiBold";
   height:44px;
   line-height:44px;
@@ -401,18 +400,18 @@ a {
 .item-logo::after{
   content:"–––––";
   letter-spacing: -.1rem;
-  margin-left:12px;
+  margin-left:24px;
 
 }
 
 
 .item-info{
   height:44px;
-  line-height:44px;
+  line-height:24px;
 }
 
 .item-menu{
-  width:260px;
+  margin: 0 32px;
   font-family: "Telegraf-SemiBold";
 
 }
