@@ -264,7 +264,7 @@ content:"->";
 
 
 .first{
-  padding-top:40px;
+  padding-top:36px;
 }
 
 
@@ -350,7 +350,7 @@ a {
   flex-basis: 100%;
   flex-grow: 1;
   position: relative;
-  margin: 80px 2.5%;
+  margin: 36px 2.5%;
 }
 
 .flexnest{
