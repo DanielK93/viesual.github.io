@@ -411,7 +411,6 @@ a {
 }
 
 .item-menu{
-  margin: 0 32px;
   font-family: "Telegraf-SemiBold";
 
 }
@@ -429,6 +428,7 @@ a {
   height:44px;
   line-height: 44px;
   margin: 0;
+  margin-left:0 24px;
 }
 
 .item-menu ul li a {
