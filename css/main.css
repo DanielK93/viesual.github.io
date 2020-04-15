@@ -414,6 +414,7 @@ a {
   font-family: "Telegraf-SemiBold";
   position: absolute;
     right: 5%;
+    width:340px;
 
 }
 
@@ -423,13 +424,13 @@ a {
   display: flex;
   justify-content: space-between;
   width:100%;
+
 }
 
 .item-menu ul li{
   display: inline;
   height:44px;
   line-height: 44px;
-  margin-left: 48px;
 }
 
 .item-menu ul li a {
