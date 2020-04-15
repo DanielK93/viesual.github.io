@@ -485,7 +485,7 @@ a {
 
 
 .item-100 {
-  flex-basis: 100%;
+  width: 95%;
   flex-grow: 1;
 position: relative;
 margin: 0 2.5%;
