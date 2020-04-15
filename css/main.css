@@ -439,7 +439,7 @@ a {
   height:2.5px;
   width:100%;
   transform: scaleX(0);
-  background-color:white;
+  background-color:black;
   transition: transform .5s;
   transform-origin:left;
 }
