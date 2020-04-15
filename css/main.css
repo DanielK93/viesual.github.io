@@ -303,6 +303,9 @@ content:"->";
   .stagegrid_base { grid-area: 1 / 1 / 2 / 3; }
   .stagegrid_side { grid-area: 1 / 2 / 2 / 3; text-align: right;}
 
+  .stagegrid_side p {
+    margin-bottom:0.5rem;
+  }
 
 
 
