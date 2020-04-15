@@ -263,11 +263,6 @@ content:"->";
 }
 
 
-.first{
-  padding-top:36px;
-}
-
-
 .stageimage{
   position:absolute;
   top:0;
@@ -307,7 +302,7 @@ content:"->";
 .fixedheader{
  width:95%;
  left:50%;
- margin:0 auto;
+ margin:0 auto 42px;;
  padding: 140px 2.5% 0;
   align-items: center;
   z-index: 3;
