@@ -308,7 +308,7 @@ content:"->";
   position:fixed;
  width:95%;
  left:50%;
- top: 20px;
+ margin-top:200px;
  transform: translateX(-50%);
  margin:0 auto;
  padding: 0 2.5%;
