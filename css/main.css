@@ -305,13 +305,10 @@ content:"->";
 
  /*test*/
 .fixedheader{
-  position:fixed;
  width:95%;
  left:50%;
- top:140px;
- transform: translateX(-50%);
  margin:0 auto;
- padding: 0 2.5%;
+ padding: 140px 2.5% 0;
   align-items: center;
   z-index: 3;
 }
