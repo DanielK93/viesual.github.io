@@ -392,7 +392,6 @@ a {
 
 
 .item-logo{
-  padding: 10px 24px 10px 20px;
   width: 140px;
 
 }
@@ -401,9 +400,13 @@ a {
 
 }
 
+.item-info{
+  height:40px;
+  line-height:40px;
+}
+
 .item-menu{
   width:260px;
-  padding:10px 24px;
   font-family: "Telegraf-SemiBold";
 
 }
