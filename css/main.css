@@ -391,18 +391,16 @@ a {
 .item-logo{
   padding: 10px 24px 10px 20px;
   width: 140px;
-  background-color:black;
+
 }
 
 #logosvg{
-  fill:white;
+
 }
 
 .item-menu{
   width:260px;
   padding:10px 24px;
-  background-color:black;
-  color:white;
   font-family: "Telegraf-SemiBold";
 
 }
