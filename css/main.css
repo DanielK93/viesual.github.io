@@ -401,6 +401,7 @@ a {
 .item-logo::after{
   content:"–––––";
   letter-spacing: -.1rem;
+  margin-left:12px;
 
 }
 
