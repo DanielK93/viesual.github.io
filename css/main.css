@@ -400,14 +400,13 @@ a {
 .item-logo::after{
   content:"–––––";
   letter-spacing: -.1rem;
-  margin-left:24px;
+  margin: 0 24px;
 
 }
 
 
 .item-info{
   height:44px;
-  line-height:24px;
 }
 
 .item-menu{
