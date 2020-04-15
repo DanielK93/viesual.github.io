@@ -8,6 +8,25 @@ isseen = false;
 
 var small = false;
 
+
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("fixedheader");
+
+// Get the offset position of the navbar
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >=100) {
+    header.style.top = "0";
+  } else {
+    header.style.top = "100px";
+  }
+}
+
+
 var switchmenu = function() {
   open = !open;
     if (open == true){
