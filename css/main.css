@@ -317,6 +317,8 @@ content:"->";
   position:fixed;
   padding: 0 2.5%;
   top:0;
+  left:50%;
+  transform: translateX(-50%);
 }
 
 .item-50 > img{
