@@ -313,6 +313,12 @@ content:"->";
   z-index: 3;
 }
 
+.sticky{
+  position:fixed;
+  padding: 0 2.5%;
+  top:0;
+}
+
 .item-50 > img{
   max-height:50%;
 }
