@@ -26,7 +26,8 @@ for (var i = 0; i < menuelements.length; i++) {
 }
 
 var breadchange = function(){
-var testadd = document.getElementById("bread").getAttribute("data-title");
+const breadelements = document.querySelectorAll(".container");
+var testadd = breadelements[0].getAttribute("data-title");
 console.log(testadd);
 };
 
