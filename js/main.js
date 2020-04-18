@@ -37,6 +37,8 @@ function customobserve(){
 
 const targetelements = document.querySelectorAll(".intob");
 
+console.log("hey");
+
 observer = new IntersectionObserver((entries) => {
 
   entries.forEach(entry => {
