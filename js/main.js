@@ -25,6 +25,11 @@ for (var i = 0; i < menuelements.length; i++) {
   menuelements[i].addEventListener('click', switchmenu, false);
 }
 
+var breadchange = function(){
+var testadd = document.getElementById("bread").getAttribute("data-title");
+console.log(testadd);
+};
+
 
 
 function customobserve(){
@@ -68,6 +73,7 @@ targetelements.forEach(targetelement =>{
 
 
 customobserve();
+breadchange();
 Barba.Pjax.start();
 Barba.Prefetch.init();
 
@@ -122,6 +128,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               customobserve();
+              breadchange();
                 _this.newContainer.classList.remove("fade-in");
                 _this.done();
                 
