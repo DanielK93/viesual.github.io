@@ -126,7 +126,7 @@ var FadeTransition = Barba.BaseTransition.extend({
         function startfadein(){
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
-              customobserve();
+            
              
                 _this.newContainer.classList.remove("fade-in");
                 _this.done();
