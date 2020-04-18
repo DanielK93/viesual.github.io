@@ -27,7 +27,7 @@ for (var i = 0; i < menuelements.length; i++) {
 
 var breadchange = function(){
 const breadelements = document.querySelectorAll(".container");
-var testadd = breadelements[1].getAttribute("data-title");
+var testadd = breadelements[0].getAttribute("data-title");
 console.log(testadd);
 };
 
@@ -86,6 +86,7 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
+breadchange();
 
 });
 
@@ -126,7 +127,7 @@ var FadeTransition = Barba.BaseTransition.extend({
             _this.newContainer.classList.add("fade-in");
             _this.newContainer.addEventListener("animationend", function(){
               customobserve();
-              breadchange();
+
                 _this.newContainer.classList.remove("fade-in");
                 _this.done();
           
