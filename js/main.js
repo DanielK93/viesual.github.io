@@ -88,6 +88,7 @@ var lazyLoadInstance = new LazyLoad({
 
 Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
 lazyLoadInstance.update();
+breadchange();
 
 });
 
@@ -131,7 +132,7 @@ var FadeTransition = Barba.BaseTransition.extend({
              
                 _this.newContainer.classList.remove("fade-in");
                 _this.done();
-                breadchange();
+          
                
 
             });
