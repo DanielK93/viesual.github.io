@@ -29,6 +29,7 @@ var breadchange = function(){
 const breadelements = document.querySelectorAll(".container");
 var testadd = breadelements[0].getAttribute("data-title");
 console.log(testadd);
+document.getElementById("item-info").innerHTML = testadd;
 };
 
 
