@@ -914,6 +914,12 @@ height:100vh;
   --Standardfontsize: 20px;
 }
 
+
+h1 {
+  font-size: 3rem;
+}
+
+
 }
 
 
