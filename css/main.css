@@ -814,9 +814,7 @@ height:100vh;
     text-align:left;
   }
 
-  .item-logo::after{
-    content:"–––";
-  }
+
 
 }
 
@@ -921,6 +919,10 @@ height:100vh;
 
 h1 {
   font-size: 3rem;
+}
+
+.item-logo::after{
+  content:"–––";
 }
 
 
