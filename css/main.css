@@ -920,6 +920,12 @@ h1 {
   content:"–––";
 }
 
+:root {
+
+  --Standardfontsize: 22px;
+
+}
+
 
 }
 
