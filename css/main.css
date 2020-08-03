@@ -86,6 +86,12 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "epi";
+  src: url(..\type\epi-subset.woff2);
+  font-style: normal;
+}
+
 :root {
   --white: #fcfcfc;
   --blacktext: rgba(0, 0, 0, .9);
@@ -104,7 +110,7 @@ html {
   --infofontsize: 12px;
   --scale: 1vw;
   --basicfont: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  --variablefont: "93stf-v";
+  --variablefont: "epi";
   --monofont: "SuisseIntlMono-Regular";
   --semiboldfont: "Telegraf-SemiBold";
   --regularfont: "Telegraf-Regular";
@@ -117,7 +123,7 @@ html {
 }
 
 body {
-  font-family: var(--regularfont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: var(--variablefont), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   color: var(--greytext);
