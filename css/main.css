@@ -92,6 +92,12 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "trispace";
+  src: url(../type/trispace-subset.woff2);
+  font-style: normal;
+}
+
 :root {
   --white: #fcfcfc;
   --blacktext: rgba(0, 0, 0, .9);
